@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="38fe1f71-9b65-45b6-9280-4f377e0e54e1"
+mode="Global"
+rxversion="8.0">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="BBGO">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="605bc0ac-e291-4401-a6d0-797dc53a25a5"
+	name="BBGORepository"
+	relativepath="BBGORepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="BBGORepository"
+		namespace="BBGO">
+		</codegen>
+		<rootfolder
+		id="2cdc25d9-57c3-44aa-825e-964c74a33e48"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

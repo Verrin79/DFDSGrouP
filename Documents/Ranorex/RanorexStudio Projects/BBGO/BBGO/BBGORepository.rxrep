@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="BBGORepository"
+id="605bc0ac-e291-4401-a6d0-797dc53a25a5"
+rxversion="8.0">
+  <codegen
+  classname="BBGORepository"
+  namespace="BBGO"/>
+  <rootfolder
+  name="Root"
+  id="2cdc25d9-57c3-44aa-825e-964c74a33e48"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

@@ -79,6 +79,34 @@ namespace BBGO
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://nordea.se' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://nordea.se", "chrome", "", false, false, false, false, false);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(1));
+            Mouse.ScrollWheel(-480);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Start.TilePKingComCandyCrushSodaSagaKgqvn' at 26;36.", repo.Start.TilePKingComCandyCrushSodaSagaKgqvnInfo, new RecordItemIndex(2));
+            repo.Start.TilePKingComCandyCrushSodaSagaKgqvn.Click("26;36");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element1351658240' at 3157;69.", repo.BankenFoerHelaDinEkonomiNordeaSe.Element1351658240Info, new RecordItemIndex(3));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Element1351658240.Click("3157;69");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element1351658240' at 3056;61.", repo.BankenFoerHelaDinEkonomiNordeaSe.Element1351658240Info, new RecordItemIndex(4));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Element1351658240.Click("3056;61");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element1351658240' at 2780;494.", repo.BankenFoerHelaDinEkonomiNordeaSe.Element1351658240Info, new RecordItemIndex(5));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Element1351658240.Click("2780;494");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe' at 3200;49.", repo.BankenFoerHelaDinEkonomiNordeaSe.SelfInfo, new RecordItemIndex(6));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Self.Click("3200;49");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

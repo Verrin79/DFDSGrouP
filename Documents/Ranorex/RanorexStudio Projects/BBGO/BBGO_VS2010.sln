@@ -2,12 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # Ranorex Studio 8.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBGO", "BBGO\BBGO.csproj", "{491963AF-0A2D-42C1-8698-BF6C7FCD9BE2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E44BDB53-FFE3-4D98-AECA-DA96B88BF400}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBGO", "BBGO\BBGO.csproj", "{491963AF-0A2D-42C1-8698-BF6C7FCD9BE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

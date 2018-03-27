@@ -27,6 +27,9 @@ namespace rx_git_proj
     public partial class rx_git_projRepository : RepoGenBaseFolder
     {
         static rx_git_projRepository instance = new rx_git_projRepository();
+        rx_git_projRepositoryFolders.DocumentsAppFolder _documents;
+        rx_git_projRepositoryFolders.ExplorerAppFolder _explorer;
+        rx_git_projRepositoryFolders.Explorer1AppFolder _explorer1;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_git_projRepository element repository.
@@ -43,6 +46,9 @@ namespace rx_git_proj
         public rx_git_projRepository() 
             : base("rx_git_projRepository", "/", null, 0, false, "c92d7753-c722-4491-9fdb-956000881286", ".\\RepositoryImages\\rx_git_projRepositoryc92d7753.rximgres")
         {
+            _documents = new rx_git_projRepositoryFolders.DocumentsAppFolder(this);
+            _explorer = new rx_git_projRepositoryFolders.ExplorerAppFolder(this);
+            _explorer1 = new rx_git_projRepositoryFolders.Explorer1AppFolder(this);
         }
 
 #region Variables
@@ -60,6 +66,33 @@ namespace rx_git_proj
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The Documents folder.
+        /// </summary>
+        [RepositoryFolder("6a65fc1c-b837-4fcb-997b-40be9a947794")]
+        public virtual rx_git_projRepositoryFolders.DocumentsAppFolder Documents
+        {
+            get { return _documents; }
+        }
+
+        /// <summary>
+        /// The Explorer folder.
+        /// </summary>
+        [RepositoryFolder("fafd4c48-4d54-4594-808f-b3967a6e93e9")]
+        public virtual rx_git_projRepositoryFolders.ExplorerAppFolder Explorer
+        {
+            get { return _explorer; }
+        }
+
+        /// <summary>
+        /// The Explorer1 folder.
+        /// </summary>
+        [RepositoryFolder("c09f05e1-4b0c-4947-90f5-39f1bcbffc50")]
+        public virtual rx_git_projRepositoryFolders.Explorer1AppFolder Explorer1
+        {
+            get { return _explorer1; }
+        }
     }
 
     /// <summary>
@@ -68,6 +101,256 @@ namespace rx_git_proj
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
     public partial class rx_git_projRepositoryFolders
     {
+        /// <summary>
+        /// The DocumentsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("6a65fc1c-b837-4fcb-997b-40be9a947794")]
+        public partial class DocumentsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _clipboardInfo;
+            RepoItemInfo _titlebarInfo;
+
+            /// <summary>
+            /// Creates a new Documents  folder.
+            /// </summary>
+            public DocumentsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Documents", "/form[@title='Documents']", parentFolder, 30000, null, true, "6a65fc1c-b837-4fcb-997b-40be9a947794", "")
+            {
+                _clipboardInfo = new RepoItemInfo(this, "Clipboard", "element[3]//container[@accessiblename='Lower Ribbon']/container[@accessiblename='']/container[@accessiblename='Home']/toolbar[@accessiblename='Clipboard']", 30000, null, "17570665-f58d-4a79-9eb8-60f9d3a5f025");
+                _titlebarInfo = new RepoItemInfo(this, "TitleBar", "titlebar[@automationid='TitleBar']", 30000, null, "59fbe5cd-a340-44ae-abd6-b2dbf4833806");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("6a65fc1c-b837-4fcb-997b-40be9a947794")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("6a65fc1c-b837-4fcb-997b-40be9a947794")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Clipboard item.
+            /// </summary>
+            [RepositoryItem("17570665-f58d-4a79-9eb8-60f9d3a5f025")]
+            public virtual Ranorex.ToolBar Clipboard
+            {
+                get
+                {
+                    return _clipboardInfo.CreateAdapter<Ranorex.ToolBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Clipboard item info.
+            /// </summary>
+            [RepositoryItemInfo("17570665-f58d-4a79-9eb8-60f9d3a5f025")]
+            public virtual RepoItemInfo ClipboardInfo
+            {
+                get
+                {
+                    return _clipboardInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item.
+            /// </summary>
+            [RepositoryItem("59fbe5cd-a340-44ae-abd6-b2dbf4833806")]
+            public virtual Ranorex.TitleBar TitleBar
+            {
+                get
+                {
+                    return _titlebarInfo.CreateAdapter<Ranorex.TitleBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TitleBar item info.
+            /// </summary>
+            [RepositoryItemInfo("59fbe5cd-a340-44ae-abd6-b2dbf4833806")]
+            public virtual RepoItemInfo TitleBarInfo
+            {
+                get
+                {
+                    return _titlebarInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExplorerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("fafd4c48-4d54-4594-808f-b3967a6e93e9")]
+        public partial class ExplorerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _tortoisegitclient1runningwindowInfo;
+            RepoItemInfo _ranorexstudio1runningwindowInfo;
+
+            /// <summary>
+            /// Creates a new Explorer  folder.
+            /// </summary>
+            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer", "/menubar[@class='Shell_TrayWnd']", parentFolder, 30000, null, true, "fafd4c48-4d54-4594-808f-b3967a6e93e9", "")
+            {
+                _tortoisegitclient1runningwindowInfo = new RepoItemInfo(this, "TortoiseGitClient1RunningWindow", "container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^TortoiseGit\\ client\\ -\\ 1\\ ru']", 30000, null, "a078d16a-9302-406d-9174-0e82017be454");
+                _ranorexstudio1runningwindowInfo = new RepoItemInfo(this, "RanorexStudio1RunningWindow", "container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^RanorexStudio\\ -\\ 1\\ running']", 30000, null, "9940a059-f4bd-4e36-8164-8a872258be8e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("fafd4c48-4d54-4594-808f-b3967a6e93e9")]
+            public virtual Ranorex.MenuBar Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("fafd4c48-4d54-4594-808f-b3967a6e93e9")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TortoiseGitClient1RunningWindow item.
+            /// </summary>
+            [RepositoryItem("a078d16a-9302-406d-9174-0e82017be454")]
+            public virtual Ranorex.Button TortoiseGitClient1RunningWindow
+            {
+                get
+                {
+                    return _tortoisegitclient1runningwindowInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TortoiseGitClient1RunningWindow item info.
+            /// </summary>
+            [RepositoryItemInfo("a078d16a-9302-406d-9174-0e82017be454")]
+            public virtual RepoItemInfo TortoiseGitClient1RunningWindowInfo
+            {
+                get
+                {
+                    return _tortoisegitclient1runningwindowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RanorexStudio1RunningWindow item.
+            /// </summary>
+            [RepositoryItem("9940a059-f4bd-4e36-8164-8a872258be8e")]
+            public virtual Ranorex.Button RanorexStudio1RunningWindow
+            {
+                get
+                {
+                    return _ranorexstudio1runningwindowInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RanorexStudio1RunningWindow item info.
+            /// </summary>
+            [RepositoryItemInfo("9940a059-f4bd-4e36-8164-8a872258be8e")]
+            public virtual RepoItemInfo RanorexStudio1RunningWindowInfo
+            {
+                get
+                {
+                    return _ranorexstudio1runningwindowInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Explorer1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("c09f05e1-4b0c-4947-90f5-39f1bcbffc50")]
+        public partial class Explorer1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _list1Info;
+
+            /// <summary>
+            /// Creates a new Explorer1  folder.
+            /// </summary>
+            public Explorer1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer1", "/form[@processname='explorer' and @class='WorkerW' and @instance='0']", parentFolder, 30000, null, true, "c09f05e1-4b0c-4947-90f5-39f1bcbffc50", "")
+            {
+                _list1Info = new RepoItemInfo(this, "List1", "?/?/list[@controlid='1']", 30000, null, "3beeed60-359c-4280-96c3-fb8224eef852");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("c09f05e1-4b0c-4947-90f5-39f1bcbffc50")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("c09f05e1-4b0c-4947-90f5-39f1bcbffc50")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The List1 item.
+            /// </summary>
+            [RepositoryItem("3beeed60-359c-4280-96c3-fb8224eef852")]
+            public virtual Ranorex.List List1
+            {
+                get
+                {
+                    return _list1Info.CreateAdapter<Ranorex.List>(true);
+                }
+            }
+
+            /// <summary>
+            /// The List1 item info.
+            /// </summary>
+            [RepositoryItemInfo("3beeed60-359c-4280-96c3-fb8224eef852")]
+            public virtual RepoItemInfo List1Info
+            {
+                get
+                {
+                    return _list1Info;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

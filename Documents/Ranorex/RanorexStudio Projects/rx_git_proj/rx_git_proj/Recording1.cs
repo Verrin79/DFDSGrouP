@@ -79,6 +79,26 @@ namespace rx_git_proj
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://nordea.se' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://nordea.se", "chrome", "", false, false, false, false, false);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element788958864' at 2294;68.", repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864Info, new RecordItemIndex(1));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864.Click("2294;68");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element788958864' at 1888;200.", repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864Info, new RecordItemIndex(2));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864.Click("1888;200");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element788958864' at 1545;456.", repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864Info, new RecordItemIndex(3));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864.Click("1545;456");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element788958864' at 991;1080.", repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864Info, new RecordItemIndex(4));
+            repo.BankenFoerHelaDinEkonomiNordeaSe.Element788958864.Click("991;1080");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

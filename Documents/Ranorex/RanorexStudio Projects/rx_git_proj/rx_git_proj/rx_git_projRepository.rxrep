@@ -175,6 +175,45 @@ IDXIelAMwKYBG0bWQzsDkMXxyVFuACg1EVKESw6cEpEBsiKoEBzgk6MAMDAAAHhShcghofWfAAAA
 AElFTkSuQmCC
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6575f584-721e-4cc4-bf67-dab981655387"
+		isrooted="True"
+		name="BankenFoerHelaDinEkonomiNordeaSe"
+		refpath="/form[@title='Banken för hela din ekonomi | Nordea.se - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="c2fd34b6-0f47-4a70-8f99-979b80c6c18e"
+			name="Element788958864"
+			refimgid="c16dc679-89c6-4c8a-8233-0b9999b08f03"
+			refpath="/form[@title~'^Banken\ för\ hela\ din\ ekono']/element[@controlid='-788958864']"
+			searchtimeout="30000ms">
+				/form[@title~'^Banken\ f&#246;r\ hela\ din\ ekono']/element[@controlid='-788958864']
+			</item>
+			<basepath>
+				/form[@title~'^Banken\ f&#246;r\ hela\ din\ ekono']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKDSURBVDhPrZBdSFNxGMbPbrq3punoEzIo8CqI
+qbjNfTm343Qutc2V6TLsrgsvqztTCwwWoWGbzpQQLOqiiIjEcoZNLXWinR1NiRGlEjtLcn486/8/
+HjUp73rgxzkX7+9533OY/54Ew8hmnNbq6ZL8wHSxMcoXGeK8zRAh749my8xZ0ti/M3nWquDPmMDb
+88AXG0FEhAt1CFu1CBdoELaoES7ST9ElkrKdoC0nbbxI/5OzE9FOSnYp4Mwq8BZVQNKkJBKyF9pM
+DLMqTFCBygQqc9ZchFkK2W5RgcvPAWfKxmdW7Zdshkl/ePHSMX81evOyMEoGpwq1+NLiwcTYHHpH
+5jE3OYTZbhsiXUos9igRe6rE0jPlWqKXlYsFRzurAkc63KitMWGQlMzcbcL1bgHsrRjYmzEYb8Tw
+dV5AvL8Aq2/UWOsnBNTAB7tLLDj0wC0cJgXpviq8VJ9CaGxWFAtIgYU8LY0UAUt8K9aDug2GtFgP
+ORrFggP+yvhBfyUoujo7+kYWtkQzIb9BIFcI+DH3nIh6Ai3IxfqowyMWKNorIqQEFIX/At5OjsNQ
+ty1Tqlqi+PWpXpI3ClY+llwTC1LbXI/T2iuwSWZPLb7NR2FuiIqb3c1RLCx+x6p4unR+UIOVAUO2
+WKDoKMtKbTuPTfYTTnRdRv1gNzrHX6PmSRPevTJty/T8oEZIhEr2iAU0yffLuRTfOaT4XFskE+St
+DujuWHdspiyPnD4pqVISjCzF6whQaRO5txxJt20I9Rn/3IylAfUVyfo78uYy3z6vc22v14mkllIY
+PCwRN7auvtcIiwPKDGl096Tdc8iPt7tdGa3VDfFRp2d5uPSqQH7Yjm8WwzC/AVqu3GYIlUeBAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

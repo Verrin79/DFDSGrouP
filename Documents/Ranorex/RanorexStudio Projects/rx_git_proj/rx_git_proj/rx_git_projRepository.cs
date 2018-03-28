@@ -30,6 +30,7 @@ namespace rx_git_proj
         rx_git_projRepositoryFolders.DocumentsAppFolder _documents;
         rx_git_projRepositoryFolders.ExplorerAppFolder _explorer;
         rx_git_projRepositoryFolders.Explorer1AppFolder _explorer1;
+        rx_git_projRepositoryFolders.BankenFoerHelaDinEkonomiNordeaSeAppFolder _bankenfoerheladinekonominordease;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_git_projRepository element repository.
@@ -49,6 +50,7 @@ namespace rx_git_proj
             _documents = new rx_git_projRepositoryFolders.DocumentsAppFolder(this);
             _explorer = new rx_git_projRepositoryFolders.ExplorerAppFolder(this);
             _explorer1 = new rx_git_projRepositoryFolders.Explorer1AppFolder(this);
+            _bankenfoerheladinekonominordease = new rx_git_projRepositoryFolders.BankenFoerHelaDinEkonomiNordeaSeAppFolder(this);
         }
 
 #region Variables
@@ -92,6 +94,15 @@ namespace rx_git_proj
         public virtual rx_git_projRepositoryFolders.Explorer1AppFolder Explorer1
         {
             get { return _explorer1; }
+        }
+
+        /// <summary>
+        /// The BankenFoerHelaDinEkonomiNordeaSe folder.
+        /// </summary>
+        [RepositoryFolder("6575f584-721e-4cc4-bf67-dab981655387")]
+        public virtual rx_git_projRepositoryFolders.BankenFoerHelaDinEkonomiNordeaSeAppFolder BankenFoerHelaDinEkonomiNordeaSe
+        {
+            get { return _bankenfoerheladinekonominordease; }
         }
     }
 
@@ -347,6 +358,72 @@ namespace rx_git_proj
                 get
                 {
                     return _list1Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The BankenFoerHelaDinEkonomiNordeaSeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("6575f584-721e-4cc4-bf67-dab981655387")]
+        public partial class BankenFoerHelaDinEkonomiNordeaSeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _element788958864Info;
+
+            /// <summary>
+            /// Creates a new BankenFoerHelaDinEkonomiNordeaSe  folder.
+            /// </summary>
+            public BankenFoerHelaDinEkonomiNordeaSeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("BankenFoerHelaDinEkonomiNordeaSe", "/form[@title~'^Banken\\ för\\ hela\\ din\\ ekono']", parentFolder, 30000, null, true, "6575f584-721e-4cc4-bf67-dab981655387", "")
+            {
+                _element788958864Info = new RepoItemInfo(this, "Element788958864", "element[@controlid='-788958864']", 30000, null, "c2fd34b6-0f47-4a70-8f99-979b80c6c18e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("6575f584-721e-4cc4-bf67-dab981655387")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("6575f584-721e-4cc4-bf67-dab981655387")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element788958864 item.
+            /// </summary>
+            [RepositoryItem("c2fd34b6-0f47-4a70-8f99-979b80c6c18e")]
+            public virtual Ranorex.Unknown Element788958864
+            {
+                get
+                {
+                    return _element788958864Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element788958864 item info.
+            /// </summary>
+            [RepositoryItemInfo("c2fd34b6-0f47-4a70-8f99-979b80c6c18e")]
+            public virtual RepoItemInfo Element788958864Info
+            {
+                get
+                {
+                    return _element788958864Info;
                 }
             }
         }

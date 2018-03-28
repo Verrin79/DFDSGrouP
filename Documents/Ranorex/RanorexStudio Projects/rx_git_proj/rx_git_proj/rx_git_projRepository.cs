@@ -31,6 +31,7 @@ namespace rx_git_proj
         rx_git_projRepositoryFolders.ExplorerAppFolder _explorer;
         rx_git_projRepositoryFolders.Explorer1AppFolder _explorer1;
         rx_git_projRepositoryFolders.BankenFoerHelaDinEkonomiNordeaSeAppFolder _bankenfoerheladinekonominordease;
+        rx_git_projRepositoryFolders.KeyPromptFormAppFolder _keypromptform;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_git_projRepository element repository.
@@ -51,6 +52,7 @@ namespace rx_git_proj
             _explorer = new rx_git_projRepositoryFolders.ExplorerAppFolder(this);
             _explorer1 = new rx_git_projRepositoryFolders.Explorer1AppFolder(this);
             _bankenfoerheladinekonominordease = new rx_git_projRepositoryFolders.BankenFoerHelaDinEkonomiNordeaSeAppFolder(this);
+            _keypromptform = new rx_git_projRepositoryFolders.KeyPromptFormAppFolder(this);
         }
 
 #region Variables
@@ -103,6 +105,15 @@ namespace rx_git_proj
         public virtual rx_git_projRepositoryFolders.BankenFoerHelaDinEkonomiNordeaSeAppFolder BankenFoerHelaDinEkonomiNordeaSe
         {
             get { return _bankenfoerheladinekonominordease; }
+        }
+
+        /// <summary>
+        /// The KeyPromptForm folder.
+        /// </summary>
+        [RepositoryFolder("719a841c-d237-4740-a4bd-d1f14b1530fd")]
+        public virtual rx_git_projRepositoryFolders.KeyPromptFormAppFolder KeyPromptForm
+        {
+            get { return _keypromptform; }
         }
     }
 
@@ -369,6 +380,7 @@ namespace rx_git_proj
         public partial class BankenFoerHelaDinEkonomiNordeaSeAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _element788958864Info;
+            RepoItemInfo _element791159776Info;
 
             /// <summary>
             /// Creates a new BankenFoerHelaDinEkonomiNordeaSe  folder.
@@ -377,6 +389,7 @@ namespace rx_git_proj
                     base("BankenFoerHelaDinEkonomiNordeaSe", "/form[@title~'^Banken\\ för\\ hela\\ din\\ ekono']", parentFolder, 30000, null, true, "6575f584-721e-4cc4-bf67-dab981655387", "")
             {
                 _element788958864Info = new RepoItemInfo(this, "Element788958864", "element[@controlid='-788958864']", 30000, null, "c2fd34b6-0f47-4a70-8f99-979b80c6c18e");
+                _element791159776Info = new RepoItemInfo(this, "Element791159776", "element[@controlid='-791159776']", 30000, null, "d8cf084d-8923-4e8a-b24a-03c2bf20cd24");
             }
 
             /// <summary>
@@ -424,6 +437,96 @@ namespace rx_git_proj
                 get
                 {
                     return _element788958864Info;
+                }
+            }
+
+            /// <summary>
+            /// The Element791159776 item.
+            /// </summary>
+            [RepositoryItem("d8cf084d-8923-4e8a-b24a-03c2bf20cd24")]
+            public virtual Ranorex.Unknown Element791159776
+            {
+                get
+                {
+                    return _element791159776Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element791159776 item info.
+            /// </summary>
+            [RepositoryItemInfo("d8cf084d-8923-4e8a-b24a-03c2bf20cd24")]
+            public virtual RepoItemInfo Element791159776Info
+            {
+                get
+                {
+                    return _element791159776Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The KeyPromptFormAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("719a841c-d237-4740-a4bd-d1f14b1530fd")]
+        public partial class KeyPromptFormAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _mbtnokInfo;
+
+            /// <summary>
+            /// Creates a new KeyPromptForm  folder.
+            /// </summary>
+            public KeyPromptFormAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("KeyPromptForm", "/form[@controlname='KeyPromptForm']", parentFolder, 30000, null, true, "719a841c-d237-4740-a4bd-d1f14b1530fd", "")
+            {
+                _mbtnokInfo = new RepoItemInfo(this, "MBtnOK", "button[@controlname='m_btnOK']", 30000, null, "faac7b5b-1fbf-4a7f-a18d-0f58f755da39");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("719a841c-d237-4740-a4bd-d1f14b1530fd")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("719a841c-d237-4740-a4bd-d1f14b1530fd")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MBtnOK item.
+            /// </summary>
+            [RepositoryItem("faac7b5b-1fbf-4a7f-a18d-0f58f755da39")]
+            public virtual Ranorex.Button MBtnOK
+            {
+                get
+                {
+                    return _mbtnokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MBtnOK item info.
+            /// </summary>
+            [RepositoryItemInfo("faac7b5b-1fbf-4a7f-a18d-0f58f755da39")]
+            public virtual RepoItemInfo MBtnOKInfo
+            {
+                get
+                {
+                    return _mbtnokInfo;
                 }
             }
         }

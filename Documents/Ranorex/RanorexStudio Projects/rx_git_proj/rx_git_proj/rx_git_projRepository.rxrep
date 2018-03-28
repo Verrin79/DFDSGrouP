@@ -194,6 +194,16 @@ AElFTkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title~'^Banken\ f&#246;r\ hela\ din\ ekono']/element[@controlid='-788958864']
 			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="d8cf084d-8923-4e8a-b24a-03c2bf20cd24"
+			name="Element791159776"
+			refimgid="53a7be93-3e8b-40e6-becb-7182f64ed2f0"
+			refpath="/form[@title~'^Banken\ för\ hela\ din\ ekono']/element[@controlid='-791159776']"
+			searchtimeout="30000ms">
+				/form[@title~'^Banken\ f&#246;r\ hela\ din\ ekono']/element[@controlid='-791159776']
+			</item>
 			<basepath>
 				/form[@title~'^Banken\ f&#246;r\ hela\ din\ ekono']
 			</basepath>
@@ -212,6 +222,44 @@ WKDoKMtKbTuPTfYTTnRdRv1gNzrHX6PmSRPevTJty/T8oEZIhEr2iAU0yffLuRTfOaT4XFskE+St
 DujuWHdspiyPnD4pqVISjCzF6whQaRO5txxJt20I9Rn/3IylAfUVyfo78uYy3z6vc22v14mkllIY
 PCwRN7auvtcIiwPKDGl096Tdc8iPt7tdGa3VDfFRp2d5uPSqQH7Yjm8WwzC/AVqu3GYIlUeBAAAA
 AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="719a841c-d237-4740-a4bd-d1f14b1530fd"
+		isrooted="True"
+		name="KeyPromptForm"
+		refpath="/form[@controlname='KeyPromptForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="faac7b5b-1fbf-4a7f-a18d-0f58f755da39"
+			name="MBtnOK"
+			refimgid="17305a7a-c3b1-4ce2-a96c-a5d57b36384e"
+			refpath="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
+			searchtimeout="30000ms">
+				/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']
+			</item>
+			<basepath>
+				/form[@controlname='KeyPromptForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
 			</icon>
 		</appfolder>
 		<basepath>

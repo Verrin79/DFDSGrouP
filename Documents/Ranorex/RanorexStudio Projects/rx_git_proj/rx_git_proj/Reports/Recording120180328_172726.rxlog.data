@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="50.48s"
+		durationms="50476"
+		type="root"
+		rid="11355444ff28c470"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Giovanni Hanselius"
+		rxversion="8.0.1.0"
+		host="DESKTOP-84H7JF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-SE"
+		screenresolution="3840x2160"
+		timestamp="2018-03-28 17:27:34"
+		timestampiso="2018-03-28T15:27:34"
+		endtime="2018-03-28 17:28:24"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.792"
+			timeRelativeToTestModuleStartTime="00:00.795"
+			timeWallClock="17:27:35"
+			time="00:00.792"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://nordea.se' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.930"
+			timeRelativeToTestModuleStartTime="00:00.933"
+			timeWallClock="17:27:35"
+			time="00:00.930"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BankenFoerHelaDinEkonomiNordeaSe.Element788958864' at 2294;68.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Banken\ för\ hela\ din\ ekono']/element[@controlid='-788958864']"
+				itempath="element[@controlid='-788958864']"
+				fullname="rx_git_projRepository.BankenFoerHelaDinEkonomiNordeaSe.Element788958864"
+				id="c2fd34b60f474a708f99979b80c6c18e"
+				timeout="60000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\rx_git_proj\rx_git_proj\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.476"
+			timeRelativeToTestModuleStartTime="00:50.478"
+			timeWallClock="17:28:24"
+			time="00:50.476"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -79,56 +79,6 @@ namespace rx_git_proj
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\Giovanni Hanselius\\Documents\\Ranorex\\RanorexStudio Projects\\Samples\\KeePassTestSuite\\KeePassTestSuite\\KeePass\\KeePass.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\Users\\Giovanni Hanselius\\Documents\\Ranorex\\RanorexStudio Projects\\Samples\\KeePassTestSuite\\KeePassTestSuite\\KeePass\\KeePass.exe", "", "C:\\Users\\Giovanni Hanselius\\Documents\\Ranorex\\RanorexStudio Projects\\Samples\\KeePassTestSuite\\KeePassTestSuite\\KeePass", false);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Documents.Clipboard' at 609;186.", repo.Documents.ClipboardInfo, new RecordItemIndex(1));
-            repo.Documents.Clipboard.Click("609;186");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Documents.TitleBar' at 729;48.", repo.Documents.TitleBarInfo, new RecordItemIndex(2));
-            repo.Documents.TitleBar.Click("729;48");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.TortoiseGitClient1RunningWindow' at 69;50.", repo.Explorer.TortoiseGitClient1RunningWindowInfo, new RecordItemIndex(3));
-            repo.Explorer.TortoiseGitClient1RunningWindow.Click("69;50");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.RanorexStudio1RunningWindow' at 75;55.", repo.Explorer.RanorexStudio1RunningWindowInfo, new RecordItemIndex(4));
-            repo.Explorer.RanorexStudio1RunningWindow.Click("75;55");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'Explorer1.List1' at 2601;3414.", repo.Explorer1.List1Info, new RecordItemIndex(5));
-            repo.Explorer1.List1.MoveTo("2601;3414");
-            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'Explorer1.List1' at 2575;3287.", repo.Explorer1.List1Info, new RecordItemIndex(6));
-            repo.Explorer1.List1.MoveTo("2575;3287");
-            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer.RanorexStudio1RunningWindow' at 49;69.", repo.Explorer.RanorexStudio1RunningWindowInfo, new RecordItemIndex(7));
-            repo.Explorer.RanorexStudio1RunningWindow.Click("49;69");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{p up}{LWin up}'.", new RecordItemIndex(8));
-            Keyboard.Press("{p up}{LWin up}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LWin down}{p up}{LWin up}'.", new RecordItemIndex(9));
-            Keyboard.Press("{LWin down}{p up}{LWin up}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LWin down}{p up}{LWin up}'.", new RecordItemIndex(10));
-            Keyboard.Press("{LWin down}{p up}{LWin up}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(11));
-            Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

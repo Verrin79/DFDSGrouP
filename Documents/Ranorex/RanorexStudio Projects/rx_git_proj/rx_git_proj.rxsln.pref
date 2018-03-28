@@ -4,6 +4,6 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
-  <ProjectBrowserState value="[Solution rx_git_proj[rx_git_proj[Recording1.rxrec[]rx_git_projRepository.rxrep[]]]]&#xD;&#xA;Solution rx_git_proj\rx_git_proj\rx_git_proj.rxtst&#xD;&#xA;Solution rx_git_proj" />
+  <ProjectBrowserState value="[Solution rx_git_proj[rx_git_proj[Recording1.rxrec[]rx_git_projRepository.rxrep[]]]]&#xD;&#xA;Solution rx_git_proj\rx_git_proj\Recording1.rxrec&#xD;&#xA;Solution rx_git_proj" />
   <StartupProject value="{95AD2944-9937-48DA-BDD7-9E9388034D4B}" />
 </Properties>

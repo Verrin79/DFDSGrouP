@@ -79,6 +79,22 @@ namespace rx_github_proj
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\Giovanni Hanselius\\Documents\\Ranorex\\RanorexStudio Projects\\Samples\\KeePassTestSuite\\KeePassTestSuite\\KeePass\\KeePass.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("C:\\Users\\Giovanni Hanselius\\Documents\\Ranorex\\RanorexStudio Projects\\Samples\\KeePassTestSuite\\KeePassTestSuite\\KeePass\\KeePass.exe", "", "C:\\Users\\Giovanni Hanselius\\Documents\\Ranorex\\RanorexStudio Projects\\Samples\\KeePassTestSuite\\KeePassTestSuite\\KeePass", false);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='&OK') on item 'KeyPromptForm.MBtnOK'.", repo.KeyPromptForm.MBtnOKInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.KeyPromptForm.MBtnOKInfo, "Text", "&OK");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RanGitProjHash59ConsoleJenkins1' at 961;31.", repo.RanGitProjHash59ConsoleJenkins1.SelfInfo, new RecordItemIndex(2));
+            repo.RanGitProjHash59ConsoleJenkins1.Self.Click("961;31");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'MainForm.MToolMain'.", repo.MainForm.MToolMainInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.MainForm.MToolMainInfo, "Visible", "True");
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

@@ -27,6 +27,10 @@ namespace rx_github_proj
     public partial class rx_github_projRepository : RepoGenBaseFolder
     {
         static rx_github_projRepository instance = new rx_github_projRepository();
+        rx_github_projRepositoryFolders.RanGitProjHash59ConsoleJenkinsAppFolder _rangitprojhash59consolejenkins;
+        rx_github_projRepositoryFolders.KeyPromptFormAppFolder _keypromptform;
+        rx_github_projRepositoryFolders.RanGitProjHash59ConsoleJenkins1AppFolder _rangitprojhash59consolejenkins1;
+        rx_github_projRepositoryFolders.MainFormAppFolder _mainform;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_github_projRepository element repository.
@@ -43,6 +47,10 @@ namespace rx_github_proj
         public rx_github_projRepository() 
             : base("rx_github_projRepository", "/", null, 0, false, "b160ab99-1415-4bbe-96db-4a42afdb9e4f", ".\\RepositoryImages\\rx_github_projRepositoryb160ab99.rximgres")
         {
+            _rangitprojhash59consolejenkins = new rx_github_projRepositoryFolders.RanGitProjHash59ConsoleJenkinsAppFolder(this);
+            _keypromptform = new rx_github_projRepositoryFolders.KeyPromptFormAppFolder(this);
+            _rangitprojhash59consolejenkins1 = new rx_github_projRepositoryFolders.RanGitProjHash59ConsoleJenkins1AppFolder(this);
+            _mainform = new rx_github_projRepositoryFolders.MainFormAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +68,42 @@ namespace rx_github_proj
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The RanGitProjHash59ConsoleJenkins folder.
+        /// </summary>
+        [RepositoryFolder("e5a72c53-921f-435c-813a-b988b3c1a0cd")]
+        public virtual rx_github_projRepositoryFolders.RanGitProjHash59ConsoleJenkinsAppFolder RanGitProjHash59ConsoleJenkins
+        {
+            get { return _rangitprojhash59consolejenkins; }
+        }
+
+        /// <summary>
+        /// The KeyPromptForm folder.
+        /// </summary>
+        [RepositoryFolder("736de598-a10b-4f44-864c-212c060a82ff")]
+        public virtual rx_github_projRepositoryFolders.KeyPromptFormAppFolder KeyPromptForm
+        {
+            get { return _keypromptform; }
+        }
+
+        /// <summary>
+        /// The RanGitProjHash59ConsoleJenkins1 folder.
+        /// </summary>
+        [RepositoryFolder("db576502-206f-4ee4-91fb-fc7fb512a309")]
+        public virtual rx_github_projRepositoryFolders.RanGitProjHash59ConsoleJenkins1AppFolder RanGitProjHash59ConsoleJenkins1
+        {
+            get { return _rangitprojhash59consolejenkins1; }
+        }
+
+        /// <summary>
+        /// The MainForm folder.
+        /// </summary>
+        [RepositoryFolder("2bf5ed73-d4f8-4c00-891b-634169a21633")]
+        public virtual rx_github_projRepositoryFolders.MainFormAppFolder MainForm
+        {
+            get { return _mainform; }
+        }
     }
 
     /// <summary>
@@ -68,6 +112,244 @@ namespace rx_github_proj
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
     public partial class rx_github_projRepositoryFolders
     {
+        /// <summary>
+        /// The RanGitProjHash59ConsoleJenkinsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e5a72c53-921f-435c-813a-b988b3c1a0cd")]
+        public partial class RanGitProjHash59ConsoleJenkinsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _element52665648Info;
+
+            /// <summary>
+            /// Creates a new RanGitProjHash59ConsoleJenkins  folder.
+            /// </summary>
+            public RanGitProjHash59ConsoleJenkinsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RanGitProjHash59ConsoleJenkins", "/form[@title~'^ran_git_proj\\ \\#59\\ Console\\ ']", parentFolder, 30000, null, true, "e5a72c53-921f-435c-813a-b988b3c1a0cd", "")
+            {
+                _element52665648Info = new RepoItemInfo(this, "Element52665648", "element[@controlid='-52665648']", 30000, null, "1347842b-e1ad-423a-a8ff-117695b6e7fa");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e5a72c53-921f-435c-813a-b988b3c1a0cd")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e5a72c53-921f-435c-813a-b988b3c1a0cd")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element52665648 item.
+            /// </summary>
+            [RepositoryItem("1347842b-e1ad-423a-a8ff-117695b6e7fa")]
+            public virtual Ranorex.Unknown Element52665648
+            {
+                get
+                {
+                    return _element52665648Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element52665648 item info.
+            /// </summary>
+            [RepositoryItemInfo("1347842b-e1ad-423a-a8ff-117695b6e7fa")]
+            public virtual RepoItemInfo Element52665648Info
+            {
+                get
+                {
+                    return _element52665648Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The KeyPromptFormAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("736de598-a10b-4f44-864c-212c060a82ff")]
+        public partial class KeyPromptFormAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _mbtnokInfo;
+
+            /// <summary>
+            /// Creates a new KeyPromptForm  folder.
+            /// </summary>
+            public KeyPromptFormAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("KeyPromptForm", "/form[@controlname='KeyPromptForm']", parentFolder, 30000, null, true, "736de598-a10b-4f44-864c-212c060a82ff", "")
+            {
+                _mbtnokInfo = new RepoItemInfo(this, "MBtnOK", "button[@controlname='m_btnOK']", 30000, null, "e5219e3e-b5cc-4eba-8fcf-1b946a4570e5");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("736de598-a10b-4f44-864c-212c060a82ff")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("736de598-a10b-4f44-864c-212c060a82ff")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MBtnOK item.
+            /// </summary>
+            [RepositoryItem("e5219e3e-b5cc-4eba-8fcf-1b946a4570e5")]
+            public virtual Ranorex.Button MBtnOK
+            {
+                get
+                {
+                    return _mbtnokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MBtnOK item info.
+            /// </summary>
+            [RepositoryItemInfo("e5219e3e-b5cc-4eba-8fcf-1b946a4570e5")]
+            public virtual RepoItemInfo MBtnOKInfo
+            {
+                get
+                {
+                    return _mbtnokInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The RanGitProjHash59ConsoleJenkins1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("db576502-206f-4ee4-91fb-fc7fb512a309")]
+        public partial class RanGitProjHash59ConsoleJenkins1AppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new RanGitProjHash59ConsoleJenkins1  folder.
+            /// </summary>
+            public RanGitProjHash59ConsoleJenkins1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RanGitProjHash59ConsoleJenkins1", "/dom[@domain='localhost:8080']", parentFolder, 30000, null, false, "db576502-206f-4ee4-91fb-fc7fb512a309", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("db576502-206f-4ee4-91fb-fc7fb512a309")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("db576502-206f-4ee4-91fb-fc7fb512a309")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The MainFormAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("2bf5ed73-d4f8-4c00-891b-634169a21633")]
+        public partial class MainFormAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _mtoolmainInfo;
+
+            /// <summary>
+            /// Creates a new MainForm  folder.
+            /// </summary>
+            public MainFormAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("MainForm", "/form[@controlname='MainForm']", parentFolder, 30000, null, true, "2bf5ed73-d4f8-4c00-891b-634169a21633", "")
+            {
+                _mtoolmainInfo = new RepoItemInfo(this, "MToolMain", "toolbar[@controlname='m_toolMain']", 30000, null, "c2e52987-9e9a-41a2-8868-e7971874099d");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("2bf5ed73-d4f8-4c00-891b-634169a21633")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("2bf5ed73-d4f8-4c00-891b-634169a21633")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MToolMain item.
+            /// </summary>
+            [RepositoryItem("c2e52987-9e9a-41a2-8868-e7971874099d")]
+            public virtual Ranorex.ToolBar MToolMain
+            {
+                get
+                {
+                    return _mtoolmainInfo.CreateAdapter<Ranorex.ToolBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MToolMain item info.
+            /// </summary>
+            [RepositoryItemInfo("c2e52987-9e9a-41a2-8868-e7971874099d")]
+            public virtual RepoItemInfo MToolMainInfo
+            {
+                get
+                {
+                    return _mtoolmainInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

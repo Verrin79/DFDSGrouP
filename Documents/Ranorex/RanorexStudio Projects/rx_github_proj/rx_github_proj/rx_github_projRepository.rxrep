@@ -103,6 +103,26 @@ PMUS068qqbJaTdGHxNcW1rx3XpBE8gtofAHOaf9ibgAAAABJRU5ErkJggg==
 		refpath="/dom[@domain='localhost:8080']"
 		searchtimeout="30000ms"
 		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2eeabd18-d835-430e-bc93-3bd1ab428b8c"
+			name="MainPanel"
+			refimgid="8a4e8a0e-ff66-407b-9fe9-85f20f89fae0"
+			refpath="/dom[@domain='localhost:8080']//div[#'main-panel']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//div[#'main-panel']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9158e15c-b2d7-43e4-bc32-2f6dd4535221"
+			name="Header"
+			refimgid="47e50459-70ed-4fed-98e0-52f8ecae64b8"
+			refpath="/dom[@domain='localhost:8080']//div[#'header']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//div[#'header']
+			</item>
 			<basepath>
 				/dom[@domain='localhost:8080']
 			</basepath>

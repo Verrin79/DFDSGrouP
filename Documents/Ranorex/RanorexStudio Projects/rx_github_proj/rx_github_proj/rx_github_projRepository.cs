@@ -250,6 +250,8 @@ namespace rx_github_proj
         [RepositoryFolder("db576502-206f-4ee4-91fb-fc7fb512a309")]
         public partial class RanGitProjHash59ConsoleJenkins1AppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _mainpanelInfo;
+            RepoItemInfo _headerInfo;
 
             /// <summary>
             /// Creates a new RanGitProjHash59ConsoleJenkins1  folder.
@@ -257,6 +259,8 @@ namespace rx_github_proj
             public RanGitProjHash59ConsoleJenkins1AppFolder(RepoGenBaseFolder parentFolder) :
                     base("RanGitProjHash59ConsoleJenkins1", "/dom[@domain='localhost:8080']", parentFolder, 30000, null, false, "db576502-206f-4ee4-91fb-fc7fb512a309", "")
             {
+                _mainpanelInfo = new RepoItemInfo(this, "MainPanel", ".//div[#'main-panel']", 30000, null, "2eeabd18-d835-430e-bc93-3bd1ab428b8c");
+                _headerInfo = new RepoItemInfo(this, "Header", ".//div[#'header']", 30000, null, "9158e15c-b2d7-43e4-bc32-2f6dd4535221");
             }
 
             /// <summary>
@@ -280,6 +284,54 @@ namespace rx_github_proj
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MainPanel item.
+            /// </summary>
+            [RepositoryItem("2eeabd18-d835-430e-bc93-3bd1ab428b8c")]
+            public virtual Ranorex.DivTag MainPanel
+            {
+                get
+                {
+                    return _mainpanelInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MainPanel item info.
+            /// </summary>
+            [RepositoryItemInfo("2eeabd18-d835-430e-bc93-3bd1ab428b8c")]
+            public virtual RepoItemInfo MainPanelInfo
+            {
+                get
+                {
+                    return _mainpanelInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Header item.
+            /// </summary>
+            [RepositoryItem("9158e15c-b2d7-43e4-bc32-2f6dd4535221")]
+            public virtual Ranorex.DivTag Header
+            {
+                get
+                {
+                    return _headerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Header item info.
+            /// </summary>
+            [RepositoryItemInfo("9158e15c-b2d7-43e4-bc32-2f6dd4535221")]
+            public virtual RepoItemInfo HeaderInfo
+            {
+                get
+                {
+                    return _headerInfo;
                 }
             }
         }

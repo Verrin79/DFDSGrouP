@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="rx_github_projRepository"
+id="49ab52d9-f8c1-468f-a90d-39818d1138bc"
+rxversion="8.0">
+  <codegen
+  classname="rx_github_projRepository"
+  namespace="rx_github_proj"/>
+  <rootfolder
+  name="Root"
+  id="b160ab99-1415-4bbe-96db-4a42afdb9e4f"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

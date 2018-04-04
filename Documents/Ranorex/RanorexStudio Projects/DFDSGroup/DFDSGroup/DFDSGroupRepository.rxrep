@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="DFDSGroupRepository"
+id="6b32f50e-ecfc-4617-86e3-549b911fc29b"
+rxversion="8.0">
+  <codegen
+  classname="DFDSGroupRepository"
+  namespace="DFDSGroup"/>
+  <rootfolder
+  name="Root"
+  id="d5ace215-054f-4368-948a-0cf858b02a42"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

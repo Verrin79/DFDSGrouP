@@ -16,15 +16,45 @@ rxversion="8.0">
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
-		id="7a26f4c7-12ea-448f-8565-6e9849c3bd02"
+		id="085e65ce-5f46-414e-a0b3-8d60a8add840"
 		isrooted="True"
 		name="DFDSFerriesLogisticsFreightEurop"
 		refpath="/dom[@domain='prod.dfds-unified.com']"
 		searchtimeout="30000ms"
 		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3a62c537-902e-45e4-bd12-09039d8b9412"
+			name="ReadMoreAboutDFDS"
+			refimgid="0b8b7982-6048-4f3e-9e61-b535398f5c9b"
+			refpath="/dom[@domain='prod.dfds-unified.com']//div[#'entryId_1M0fxuuE1eSU4Qa6oYs8wW']/div[1]/a/div[2]/div[2]/div/span[@innertext='Read more about DFDS']"
+			searchtimeout="30000ms">
+				/dom[@domain='prod.dfds-unified.com']//div[#'entryId_1M0fxuuE1eSU4Qa6oYs8wW']/?/?/a[@href~'^https://prod\.dfds-unified']/div[2]/div[2]/?/?/span[@innertext='Read more about DFDS']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b1e523be-2351-4b03-a045-e0effaa6cfc1"
+			name="ReadOurVisionAndStrategy"
+			refimgid="beb3cd47-ddaf-4d7b-a269-87cc222ecb5a"
+			refpath="/dom[@domain='prod.dfds-unified.com']//div[#'entryId_5NDUP3h7vaCWWU66EuOw6g']/div[1]/a[@href='https://prod.dfds-unified.com/en-gb/group/about-dfds/vision-and-strategy']/div[2]/div[2]/div/span[@innertext='Read our vision and strategy']"
+			searchtimeout="30000ms">
+				/dom[@domain='prod.dfds-unified.com']//div[#'entryId_5NDUP3h7vaCWWU66EuOw6g']/?/?/a[@href~'^https://prod\.dfds-unified']/div[2]/div[2]/?/?/span[@innertext~'^Read\ our\ vision\ and\ strat']
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="cb8881bb-642d-4c02-a00b-f1dd16d81fbd"
+			name="DFDSSTRATEGYISBASEDONFOURDRIVERS"
+			refimgid="8f4b0973-a2df-4f1f-8102-5a5c62f16aba"
+			refpath="/dom[@domain='prod.dfds-unified.com']//div[#'entryId_1BqBiNxUQIqYAEcicc6yyk']/div/div/h2[@innertext='DFDS STRATEGY IS BASED ON FOUR DRIVERS']"
+			searchtimeout="30000ms">
+				/dom[@domain='prod.dfds-unified.com']//div[#'entryId_1BqBiNxUQIqYAEcicc6yyk']//h2[@innertext~'^DFDS\ STRATEGY\ IS\ BASED\ ON']
+			</item>
 			<folder
 			capname="divtag"
-			id="e0f38e86-5899-4d55-ac9b-73f181de73df"
+			id="e2669f7c-bc7e-4bf9-900a-71f7ebe2aacf"
 			isrooted="True"
 			name="SomeDivTag"
 			searchtimeout="30000ms"
@@ -32,9 +62,9 @@ rxversion="8.0">
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
-				id="2a3033a5-081b-4be4-a8d9-c964fe5abf29"
+				id="8a4123eb-5d3a-4791-9c67-2160053203b3"
 				name="AboutDFDS"
-				refimgid="8f4b6f54-bd09-4752-8fbd-0f64a8b79080"
+				refimgid="637cc16d-7550-49f2-9ae3-f937d5f10970"
 				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='About DFDS']/div[@innertext='About DFDS']"
 				searchtimeout="30000ms">
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='About DFDS']/div[@innertext='About DFDS']
@@ -42,42 +72,80 @@ rxversion="8.0">
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
-				id="fa9c9964-3111-4640-8b07-7ffb35d0a005"
+				id="a1181943-8a96-463c-bc79-6dd5517a88ba"
 				name="FreightShipping"
-				refimgid="e0ddaa49-ba18-443b-9ad9-ce2d42b764a7"
+				refimgid="cbde8196-c98d-4786-ab82-009f2187b2d7"
 				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Freight shipping']/div[@innertext='Freight shipping']"
 				searchtimeout="30000ms">
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='Freight shipping']/div[@innertext='Freight shipping']
 				</item>
 				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="c3767804-7c6d-48d7-8813-b3d5180640f6"
+				name="LogisticsSolutions"
+				refimgid="978b3f64-babf-4e0d-830f-6d7aea63091d"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Logistics solutions']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Logistics solutions']
+				</item>
+				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
-				id="28df3e6f-deaa-41b8-adeb-3338a1c67d28"
-				name="LogisticsSolutions"
-				refimgid="e5bf396d-ff92-4921-87fc-abc82a677a1b"
-				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']"
+				id="9209a435-141e-40c4-a720-6f779fbfd7d3"
+				name="MainMenuIconItem"
+				refimgid="bd1b1cd5-3da5-4d6f-a988-475a73fe53e3"
+				refpath="/dom[@domain='prod.dfds-unified.com' and @caption~'^DFDS\ Ferries,\ Logistics\ &amp;']//div[#'root']/div/div/div[1]/div/div/div[1]/menu/div[1]"
 				searchtimeout="30000ms">
-					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/menu/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="2d42138d-f83e-4f64-af9a-8a0118afa0fe"
+				name="Announcements"
+				refimgid="7e8e3cc4-1bb5-4964-9e02-fa8515ed88b5"
+				refpath="/dom[@domain='prod.dfds-unified.com' and @caption~'^DFDS\ Ferries,\ Logistics\ &amp;']//div[#'root']/div/div/div[1]/div/div/div[3]/div/div[1]/ul/li[1]/a[@innertext='Announcements']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[3]//ul/li[1]/a[@innertext='Announcements']
 				</item>
 				<basepath>
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]
 				</basepath>
 			</folder>
 			<folder
-			addcaps="unknown,webelement,divtag"
 			capname="divtag"
-			id="24b35bbe-2eb1-4551-913d-0ac568c3ebc9"
+			id="6b9b88dc-baad-4001-aded-a6be29788835"
 			isrooted="True"
-			name="HeadlineBlockImage"
-			refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]"
+			name="Grid"
 			searchtimeout="30000ms"
 			usecache="False">
 				<item
 				addcaps="unknown,webelement,h1tag"
 				capname="h1tag"
-				id="f3cadbed-cf39-411c-b3d5-30b39eb1501b"
+				id="0d7d9498-9c72-467b-b01f-b992fbc9f38e"
+				name="VisionAndStrategy"
+				refimgid="a6f0abdb-4b5e-496a-aec6-9710f14aa08f"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div/h1[@innertext='Vision and strategy']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]//h1[@innertext='Vision and strategy']
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="14d56d58-2934-4635-b85a-e24399418e09"
+				name="AboutDFDS1"
+				refimgid="60b7800b-5420-4202-888d-83258fea528b"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='About DFDS']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='About DFDS']
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="d73d5eab-50c8-43db-a228-28c15bb4e33c"
 				name="TheDFDSGroup"
-				refimgid="91ca9db9-e9f3-4f96-a57c-db22b7750932"
+				refimgid="53b377bf-ab04-468d-aadc-c1839d2fabb9"
 				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='The DFDS group']"
 				searchtimeout="30000ms">
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='The DFDS group']
@@ -85,9 +153,9 @@ rxversion="8.0">
 				<item
 				addcaps="unknown,webelement,h1tag"
 				capname="h1tag"
-				id="ec666950-5818-415b-a8ea-e39a3f1ccc6d"
+				id="8da93adb-64c5-4106-9ac3-36ab5389641a"
 				name="LogisticsAndSupplyChainSolutions"
-				refimgid="4e3a6b84-c4e5-45e8-9c05-66f4f7ea5486"
+				refimgid="c3b83ad5-b5d8-4154-8354-92eecc449ee7"
 				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='Logistics and supply chain solutions']"
 				searchtimeout="30000ms">
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Logistics\ and\ supply\ chai']
@@ -95,9 +163,9 @@ rxversion="8.0">
 				<item
 				addcaps="unknown,webelement,h1tag"
 				capname="h1tag"
-				id="9e1f74d5-b7f1-43fb-a52f-bf2d8b9e2990"
+				id="86e9ddd7-e536-4791-9c32-6a05ed675f50"
 				name="PortToPortFreightShippingSolutions"
-				refimgid="d646cf7c-8f14-4533-a835-61bad52fea0d"
+				refimgid="52844a48-7432-47b5-be30-f3e43b14e6ed"
 				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='Port-to-port freight shipping solutions']"
 				searchtimeout="30000ms">
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Port-to-port\ freight\ ship']
@@ -105,15 +173,78 @@ rxversion="8.0">
 				<item
 				addcaps="unknown,webelement,h1tag"
 				capname="h1tag"
-				id="3642fced-0958-4a7b-9a2d-4c9dc38b1d40"
+				id="7001a679-0f4a-490b-b04b-f370bbb5cec1"
 				name="WhereverWeGoWeStartWithYou"
-				refimgid="adfdcd86-01a4-4c49-b1d1-3d2ad0466830"
+				refimgid="03f57ad1-c806-4345-a1a8-8ec37941d282"
 				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='Wherever we go, we start with you']"
 				searchtimeout="30000ms">
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Wherever\ we\ go,\ we\ start\ ']
 				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="54655325-d52d-4ef7-8d3c-ee609e013c34"
+				name="HeadlineBlockFilterTextContainer"
+				refimgid="faf7bd44-d6bc-40d8-9b98-f6f38b2770c8"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="ed9c179b-2194-4fb2-a52e-8995f933ddff"
+				name="Announcements"
+				refimgid="8e515109-f2a9-4967-9727-dafbae9ab5f6"
+				refpath="/dom[@domain='prod.dfds-unified.com' and @caption='Announcements | Investor relations - DFDS Group']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div/h1[@innertext='Announcements']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]//h1[@innertext='Announcements']
+				</item>
 				<basepath>
-					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1e548cc8-7712-4c3a-8a23-f2be0a1f9e09"
+			isrooted="True"
+			name="AnnouncementListFullWidth"
+			refpath="/dom[@domain='prod.dfds-unified.com' and @caption='Announcements | Investor relations - DFDS Group']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="6d93e952-355b-4630-ae45-8f4a2daae146"
+				name="Dansk"
+				refimgid="5053a933-d0eb-46d1-8d34-4cf5accef7f2"
+				refpath="/dom[@domain='prod.dfds-unified.com' and @caption='Announcements | Investor relations - DFDS Group']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div/div[1]/div[1]/a[@innertext='Dansk']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div/div[1]/?/?/a[@innertext='Dansk']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="78f411ba-58d0-4b3c-a7c7-b38b79cfd23e"
+				name="Dansk1"
+				refimgid="84825223-1474-4563-b3de-fff453dae211"
+				refpath="/dom[@domain='prod.dfds-unified.com' and @caption='Announcements | Investor relations - DFDS Group']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div/div[2]/a[@href='https://prod.dfds-unified.com/en-gb/group/investor-relations/announcements/announcement#lang=Danish&amp;id=3448087']/div/div[1]/span[@innertext='Dansk']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div/div[2]/a[1]//span[@innertext='Dansk']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="57267c7b-6fba-42f9-8736-10703e53aca6"
+				name="English"
+				refimgid="d7fd6bce-533d-46b1-b487-59e162a3dfc2"
+				refpath="/dom[@domain='prod.dfds-unified.com' and @caption='Announcements | Investor relations - DFDS Group']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div/div[2]/a[@href='https://prod.dfds-unified.com/en-gb/group/investor-relations/announcements/announcement#lang=English&amp;id=3448086']/div/div[1]/span[@innertext='English']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div/div[2]/a[1]//span[@innertext='English']
+				</item>
+				<basepath>
+					/dom[@domain='prod.dfds-unified.com']//div[#'entryId_eSxNn17lLiCW24c00AGyE']/div
 				</basepath>
 			</folder>
 			<basepath>
@@ -133,46 +264,6 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		addcaps="form,nativewindow"
-		capname="form"
-		id="99fe5a17-a336-47f4-a371-0f4807b37342"
-		isrooted="True"
-		name="DFDSGroupNorthernEuropesLeadingTr"
-		refpath="/form[@title='DFDS Group | Northern Europe''s leading transport provider - Google Chrome']"
-		searchtimeout="30000ms"
-		usecache="True">
-			<item
-			addcaps="container,accessible"
-			capname="container"
-			id="1ad57a42-c7c0-4251-bb23-23ecf52982c1"
-			name="Client"
-			refimgid="50b30bb3-3e83-4fd4-a3be-8ce144933a55"
-			refpath="/form[@title~'^DFDS\ Group\ \|\ Northern\ Eur']/container/container[2]/container[2]/container[@accessiblerole='Client']"
-			searchtimeout="30000ms">
-				/form[@title~'^DFDS\ Group\ \|\ Northern\ Eur']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']
-			</item>
-			<basepath>
-				/form[@title~'^DFDS\ Group\ \|\ Northern\ Eur']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALOSURBVDhPrZBdSJNRHMYHWTdBJJszSs3Aq+o2
-c9V8p+4jN+delW1+bGqaBd1F1JXRTVmKhhKjnNOpUYYpkTG0AqUP1OmGWgpr76YlRmZl4LSY833s
-7N1ro+iyBx7OuTi/3/+cI/jvWTDTwtki+qLfqJ705SsXfXmKZT8tn/cVqPpnDRrVEEXF8Ef/zKZe
-v81TrNX5DWq/v0DFEhg+Wg5GlwUmNxOMVgafhgqS/ZM5nSqZx6IZp1N1b+nMNS8BmQIVwgLmLwGj
-SYdXLQWTLZ3ya4/G86hAkHXLLOwyZvgncijMhKHw9DwFGNVxvFOkwauUwntSRtZ0eBRSeLJOkNtI
-LTwuEKR0V17KuFnCDqmPYZJIPPkKzLc1w+X+gIGRJdb3ZoJd6KtiP91PY7/3prGBPgm75pB8wQtl
-IidIvlcxdaDzNKqrVBhVSjBru426vgBy6wNQ1wagb1zFc9dHBIcNCL2isPGadJhi4daZOUHS3YrF
-pM4KHLKWoV9ymEyeg47AmrpIw5Iq6ypWGDvYcTlpFlhXJtjJfCsnSOgoX07sOIUEIqEvyPF0+DMH
-cQKyZt8gt2haxbf3zwhIBC5eMJHbwwn2dZTOJ4QFpCK7CYMzMzA0RiaHYeX1FVQ/WMFPbw0PRwRB
-d24NJ9jTbhrY216OrdKOq+gdW8RZawDGpgAuE3hs2ol1tzo6fUy2HhpVZnACcZtJEW8vC8bbSxGu
-mPRI93nUO3vQNf0S5x414LGDjoCuDPIHMoTGKe/X0dRdnEBwhYoRthsd4jYzojVB1FoCYUshsi1a
-BLm3EwGBSUMbTkofgfnsthXvj2stnooj4FZFthLsbCiAe1D5G94g8NoIVbu5eWY7j0YjbimMF1kL
-LUJb8ZKwtYiNvWNEZVsO1glMwOC6k/L+GKb0090Hd/DIvxNrMSYmWk2lKZai5uUR3cOAU30tQD4s
-+uatCAS/AIjL5yMVZXXrAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath>

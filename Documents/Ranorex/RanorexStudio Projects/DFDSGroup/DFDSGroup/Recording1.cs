@@ -82,26 +82,32 @@ namespace DFDSGroup
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://prod.dfds-unified.com/en-gb/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
             Host.Current.OpenBrowser("https://prod.dfds-unified.com/en-gb/", "chrome", "", false, false, false, false, false);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.WhereverWeGoWeStartWithYou'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.WhereverWeGoWeStartWithYouInfo, new RecordItemIndex(1));
-            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.WhereverWeGoWeStartWithYouInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.WhereverWeGoWeStartWithYou'.", repo.DFDSFerriesLogisticsFreightEurop.Grid.WhereverWeGoWeStartWithYouInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.DFDSFerriesLogisticsFreightEurop.Grid.WhereverWeGoWeStartWithYouInfo, "Visible", "True");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping' at 73;31.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShippingInfo, new RecordItemIndex(2));
-            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping.Click("73;31");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping' at 132;32.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShippingInfo, new RecordItemIndex(2));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping.Click("132;32");
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.PortToPortFreightShippingSolutions'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.PortToPortFreightShippingSolutionsInfo, new RecordItemIndex(3));
-            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.PortToPortFreightShippingSolutionsInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.PortToPortFreightShippingSolutions'.", repo.DFDSFerriesLogisticsFreightEurop.Grid.PortToPortFreightShippingSolutionsInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.DFDSFerriesLogisticsFreightEurop.Grid.PortToPortFreightShippingSolutionsInfo, "Visible", "True");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions' at 196;27.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutionsInfo, new RecordItemIndex(4));
-            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions.Click("196;27");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer'.", repo.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainerInfo, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainerInfo, "Visible", "True");
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.LogisticsAndSupplyChainSolutions'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.LogisticsAndSupplyChainSolutionsInfo, new RecordItemIndex(5));
-            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.LogisticsAndSupplyChainSolutionsInfo);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions' at 299;108.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutionsInfo, new RecordItemIndex(5));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions.Click("299;108");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 172;33.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(6));
-            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS.Click("172;33");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.LogisticsAndSupplyChainSolutions'.", repo.DFDSFerriesLogisticsFreightEurop.Grid.LogisticsAndSupplyChainSolutionsInfo, new RecordItemIndex(6));
+            Validate.AttributeEqual(repo.DFDSFerriesLogisticsFreightEurop.Grid.LogisticsAndSupplyChainSolutionsInfo, "Visible", "True");
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroup'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroupInfo, new RecordItemIndex(7));
-            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroupInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer'.", repo.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainerInfo, new RecordItemIndex(7));
+            Validate.AttributeEqual(repo.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainerInfo, "Visible", "True");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 65;47.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(8));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS.Click("65;47");
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.TheDFDSGroup'.", repo.DFDSFerriesLogisticsFreightEurop.Grid.TheDFDSGroupInfo, new RecordItemIndex(9));
+            Validate.AttributeEqual(repo.DFDSFerriesLogisticsFreightEurop.Grid.TheDFDSGroupInfo, "Visible", "True");
             
         }
 

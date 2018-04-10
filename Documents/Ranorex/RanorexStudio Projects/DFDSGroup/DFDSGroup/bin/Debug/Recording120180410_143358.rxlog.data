@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7d0eed494d24eff"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Giovanni Hanselius"
+		rxversion="8.0.1.0"
+		host="DESKTOP-84H7JF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-SE"
+		screenresolution="2560x1440"
+		timestamp="2018-04-10 14:34:04"
+		timestampiso="2018-04-10T12:34:04"
+		endtime="2018-04-10 14:34:15"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.620"
+			timeRelativeToTestModuleStartTime="00:00.622"
+			timeWallClock="14:34:05"
+			time="00:00.620"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://prod.dfds-unified.com/en-gb/' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.736"
+			timeRelativeToTestModuleStartTime="00:00.738"
+			timeWallClock="14:34:05"
+			time="00:00.736"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.WhereverWeGoWeStartWithYou'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Wherever\ we\ go,\ we\ start\ ']"
+				itempath="div/div[1]//h1[@innertext~'^Wherever\ we\ go,\ we\ start\ ']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.WhereverWeGoWeStartWithYou"
+				id="7001a6790f4a490bb04bf370bbb5cec1"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.614"
+			timeRelativeToTestModuleStartTime="00:04.616"
+			timeWallClock="14:34:09"
+			time="00:04.614"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.WhereverWeGoWeStartWithYou' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Wherever\ we\ go,\ we\ start\ ']"
+				itempath="div/div[1]//h1[@innertext~'^Wherever\ we\ go,\ we\ start\ ']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.WhereverWeGoWeStartWithYou"
+				id="7001a6790f4a490bb04bf370bbb5cec1"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="86"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.618"
+			timeRelativeToTestModuleStartTime="00:04.620"
+			timeWallClock="14:34:09"
+			time="00:04.618"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping' at 132;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='Freight shipping']/div[@innertext='Freight shipping']"
+				itempath=".//nav/a[@title='Freight shipping']/div[@innertext='Freight shipping']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping"
+				id="a11819438a96463cbc796dd5517a88ba"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.365"
+			timeRelativeToTestModuleStartTime="00:05.367"
+			timeWallClock="14:34:10"
+			time="00:05.365"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.PortToPortFreightShippingSolutions'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Port-to-port\ freight\ ship']"
+				itempath="div/div[1]//h1[@innertext~'^Port-to-port\ freight\ ship']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.PortToPortFreightShippingSolutions"
+				id="86e9ddd7e53647919c326a05ed675f50"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.449"
+			timeRelativeToTestModuleStartTime="00:06.451"
+			timeWallClock="14:34:11"
+			time="00:06.449"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.PortToPortFreightShippingSolutions' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Port-to-port\ freight\ ship']"
+				itempath="div/div[1]//h1[@innertext~'^Port-to-port\ freight\ ship']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.PortToPortFreightShippingSolutions"
+				id="86e9ddd7e53647919c326a05ed675f50"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="92"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.450"
+			timeRelativeToTestModuleStartTime="00:06.452"
+			timeWallClock="14:34:11"
+			time="00:06.450"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]"
+				itempath="div/div[1]/div[2]"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer"
+				id="54655325d52d4ef78d3cee609e013c34"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="94"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.978"
+			timeRelativeToTestModuleStartTime="00:06.980"
+			timeWallClock="14:34:11"
+			time="00:06.978"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]"
+				itempath="div/div[1]/div[2]"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer"
+				id="54655325d52d4ef78d3cee609e013c34"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.979"
+			timeRelativeToTestModuleStartTime="00:06.981"
+			timeWallClock="14:34:11"
+			time="00:06.979"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions' at 299;108.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Logistics solutions']"
+				itempath="div/div/div[1]/nav/a[@title='Logistics solutions']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions"
+				id="c37678047c6d48d78813b3d5180640f6"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="97"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.751"
+			timeRelativeToTestModuleStartTime="00:07.753"
+			timeWallClock="14:34:12"
+			time="00:07.751"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.LogisticsAndSupplyChainSolutions'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Logistics\ and\ supply\ chai']"
+				itempath="div/div[1]//h1[@innertext~'^Logistics\ and\ supply\ chai']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.LogisticsAndSupplyChainSolutions"
+				id="8da93adb64c541069ac336ab5389641a"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="100"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.083"
+			timeRelativeToTestModuleStartTime="00:08.085"
+			timeWallClock="14:34:13"
+			time="00:08.083"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.LogisticsAndSupplyChainSolutions' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Logistics\ and\ supply\ chai']"
+				itempath="div/div[1]//h1[@innertext~'^Logistics\ and\ supply\ chai']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.LogisticsAndSupplyChainSolutions"
+				id="8da93adb64c541069ac336ab5389641a"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.084"
+			timeRelativeToTestModuleStartTime="00:08.086"
+			timeWallClock="14:34:13"
+			time="00:08.084"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]"
+				itempath="div/div[1]/div[2]"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer"
+				id="54655325d52d4ef78d3cee609e013c34"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="103"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.364"
+			timeRelativeToTestModuleStartTime="00:08.366"
+			timeWallClock="14:34:13"
+			time="00:08.364"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]"
+				itempath="div/div[1]/div[2]"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.HeadlineBlockFilterTextContainer"
+				id="54655325d52d4ef78d3cee609e013c34"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="104"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.366"
+			timeRelativeToTestModuleStartTime="00:08.368"
+			timeWallClock="14:34:13"
+			time="00:08.366"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 65;47.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='About DFDS']/div[@innertext='About DFDS']"
+				itempath=".//nav/a[@title='About DFDS']/div[@innertext='About DFDS']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS"
+				id="8a4123eb5d3a47919c672160053203b3"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="106"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.702"
+			timeRelativeToTestModuleStartTime="00:08.704"
+			timeWallClock="14:34:13"
+			time="00:08.702"
+			level="Warn"
+			category="Click"
+			errimg=".\Recordin_67569514_rxlog.jpg"
+			errthumb=".\Recordin_67569514_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="107"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.202"
+			timeRelativeToTestModuleStartTime="00:09.204"
+			timeWallClock="14:34:14"
+			time="00:09.202"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'DFDSFerriesLogisticsFreightEurop.Grid.TheDFDSGroup'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='The DFDS group']"
+				itempath="div/div[1]//h1[@innertext='The DFDS group']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.TheDFDSGroup"
+				id="d73d5eab50c843dba22828c15bb4e33c"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="109"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.155"
+			timeRelativeToTestModuleStartTime="00:10.157"
+			timeWallClock="14:34:15"
+			time="00:10.155"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.TheDFDSGroup' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='The DFDS group']"
+				itempath="div/div[1]//h1[@innertext='The DFDS group']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.Grid.TheDFDSGroup"
+				id="d73d5eab50c843dba22828c15bb4e33c"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="110"
+				loglvl="Success"
+				itemindex="9">
+			</metainfo>
+		</item>
+	</activity>
+</report>

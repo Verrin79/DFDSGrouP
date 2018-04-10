@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3047fa0d45f23f48"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Giovanni Hanselius"
+		rxversion="8.0.1.0"
+		host="DESKTOP-84H7JF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-SE"
+		screenresolution="1920x1080"
+		timestamp="2018-04-10 13:27:30"
+		timestampiso="2018-04-10T11:27:30"
+		endtime="2018-04-10 13:27:33"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.665"
+			timeRelativeToTestModuleStartTime="00:00.667"
+			timeWallClock="13:27:31"
+			time="00:00.665"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://prod.dfds-unified.com/en-gb/' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.790"
+			timeRelativeToTestModuleStartTime="00:00.792"
+			timeWallClock="13:27:31"
+			time="00:00.790"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.FreightShipping' at 202;80.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Freight shipping']"
+				itempath=".//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Freight shipping']"
+				fullname="DFDSGroupRepository.DFDSFerriesLogisticsFreightEurop.FreightShipping"
+				id="b87d8c4a3430465cabd4465e927c11c5"
+				timeout="60000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

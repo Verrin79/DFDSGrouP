@@ -1,0 +1,10 @@
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\bin\Debug\DFDSGroup.rxtmg
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\bin\Debug\DFDSGroup.rxtst
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\bin\Debug\RepositoryImages\DFDSGroupRepositoryd5ace215.rximgres
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\bin\Debug\DFDSGroup.exe.config
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\bin\Debug\DFDSGroup.exe
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\bin\Debug\DFDSGroup.pdb
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\obj\x86\Debug\DFDSGroup.csprojResolveAssemblyReference.cache
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\obj\x86\Debug\DFDSGroup.exe
+C:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\obj\x86\Debug\DFDSGroup.pdb

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="34.83s"
+		durationms="34829"
+		type="root"
+		rid="1de318338fbe01c4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Giovanni Hanselius"
+		rxversion="8.0.1.0"
+		host="DESKTOP-84H7JF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-SE"
+		screenresolution="3840x2160"
+		timestamp="2018-04-04 15:41:31"
+		timestampiso="2018-04-04T13:41:31"
+		endtime="2018-04-04 15:42:06"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.759"
+			timeRelativeToTestModuleStartTime="00:00.762"
+			timeWallClock="15:41:32"
+			time="00:00.759"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://uat.dfds-unified.com/en-gb/group/about-dfds' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.881"
+			timeRelativeToTestModuleStartTime="00:00.884"
+			timeWallClock="15:41:32"
+			time="00:00.881"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DFDSGoogleChrome' at 3046;67.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='DFDS - Google Chrome']"
+				itempath="/form[@title='DFDS - Google Chrome']"
+				fullname="DFDSGroupRepository.DFDSGoogleChrome.Self"
+				id="d953e108feca446c9c3f59d7a861cf55"
+				timeout="30000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.065"
+			timeRelativeToTestModuleStartTime="00:03.068"
+			timeWallClock="15:41:34"
+			time="00:03.065"
+			level="Warn"
+			category="Click"
+			errimg=".\Recordin_8f0ca0b4_rxlog.jpg"
+			errthumb=".\Recordin_8f0ca0b4_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.735"
+			timeRelativeToTestModuleStartTime="00:03.738"
+			timeWallClock="15:41:35"
+			time="00:03.735"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=870,Height=165}) on item 'AboutUsDFDSGroup.SomeDivTag.AboutDFDS'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[6]//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='About DFDS']"
+				itempath="div/div/div[1]/div/div[1]//h1[@innertext='About DFDS']"
+				fullname="DFDSGroupRepository.AboutUsDFDSGroup.SomeDivTag.AboutDFDS"
+				id="9b584b512f7c4ea68f19d6eb46b24f32"
+				timeout="90000"
+				codefile="c:\Users\Giovanni Hanselius\Documents\Ranorex\RanorexStudio Projects\DFDSGroup\DFDSGroup\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.828"
+			timeRelativeToTestModuleStartTime="00:34.831"
+			timeWallClock="15:42:06"
+			time="00:34.828"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

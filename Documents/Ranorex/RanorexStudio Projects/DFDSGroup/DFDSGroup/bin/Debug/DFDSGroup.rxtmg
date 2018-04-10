@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="DFDSGroup"
+      id="fb8f509f-d29d-449c-a2d8-8961f775e258"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="DFDSGroup"
+      id="fb8f509f-d29d-449c-a2d8-8961f775e258"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -79,43 +79,29 @@ namespace DFDSGroup
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://uat.dfds-unified.com/en-gb/group/about-dfds' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://uat.dfds-unified.com/en-gb/group/about-dfds", "chrome", "", false, false, false, false, false);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://prod.dfds-unified.com/en-gb/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://prod.dfds-unified.com/en-gb/", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSGoogleChrome' at 3046;67.", repo.DFDSGoogleChrome.SelfInfo, new RecordItemIndex(1));
-            repo.DFDSGoogleChrome.Self.Click("3046;67");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.FreightShipping' at 202;80.", repo.DFDSFerriesLogisticsFreightEurop.FreightShippingInfo, new RecordItemIndex(1));
+            repo.DFDSFerriesLogisticsFreightEurop.FreightShipping.Click("202;80");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=870,Height=165}) on item 'AboutUsDFDSGroup.SomeDivTag.AboutDFDS'.", repo.AboutUsDFDSGroup.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(2));
-            Validate.ContainsImage(repo.AboutUsDFDSGroup.SomeDivTag.AboutDFDSInfo, AboutDFDS_Screenshot1, AboutDFDS_Screenshot1_Options);
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutUsDFDSGroup.PassengerFerries' at 126;31.", repo.AboutUsDFDSGroup.PassengerFerriesInfo, new RecordItemIndex(3));
-            repo.AboutUsDFDSGroup.PassengerFerries.Click("126;31");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions' at 116;30.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutionsInfo, new RecordItemIndex(2));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions.Click("116;30");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1080 units.", new RecordItemIndex(4));
-            Mouse.ScrollWheel(-1080);
-            Delay.Milliseconds(500);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutUsDFDSGroup.SomeDivTag.OurHistory' at 88;21.", repo.AboutUsDFDSGroup.SomeDivTag.OurHistoryInfo, new RecordItemIndex(5));
-            repo.AboutUsDFDSGroup.SomeDivTag.OurHistory.Click("88;21");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 115;21.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(3));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS.Click("115;21");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AboutUsDFDSGroup.SomeDivTag.H1Tag404PageNotFound' at 80;47.", repo.AboutUsDFDSGroup.SomeDivTag.H1Tag404PageNotFoundInfo, new RecordItemIndex(6));
-            repo.AboutUsDFDSGroup.SomeDivTag.H1Tag404PageNotFound.Click("80;47");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 78;13.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(4));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS.Click("78;13");
             Delay.Milliseconds(200);
             
         }
 
 #region Image Feature Data
-        CompressedImage AboutDFDS_Screenshot1
-        { get { return repo.AboutUsDFDSGroup.SomeDivTag.AboutDFDSInfo.GetScreenshot1(new Rectangle(0, 0, 870, 165)); } }
-
-        Imaging.FindOptions AboutDFDS_Screenshot1_Options
-        { get { return Imaging.FindOptions.Default; } }
-
 #endregion
     }
 #pragma warning restore 0436

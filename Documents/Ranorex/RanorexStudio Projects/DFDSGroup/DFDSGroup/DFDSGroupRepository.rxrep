@@ -16,45 +16,15 @@ rxversion="8.0">
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
-		id="1bc14bf2-f222-4bd2-9d2d-fb1a7218bac8"
+		id="7a26f4c7-12ea-448f-8565-6e9849c3bd02"
 		isrooted="True"
 		name="DFDSFerriesLogisticsFreightEurop"
 		refpath="/dom[@domain='prod.dfds-unified.com']"
 		searchtimeout="30000ms"
 		usecache="False">
-			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
-			id="b87d8c4a-3430-465c-abd4-465e927c11c5"
-			name="FreightShipping"
-			refimgid="08e4acaf-5d71-407a-ba17-61164073dded"
-			refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Freight shipping']"
-			searchtimeout="30000ms">
-				/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Freight shipping']
-			</item>
-			<item
-			addcaps="unknown,webelement,h1tag"
-			capname="h1tag"
-			id="07d5124e-51f7-4797-83a8-23508dfcce16"
-			name="PortToPortFreightShippingSolutions"
-			refimgid="ee753fd8-b373-43fd-9fd5-769ce515d2cd"
-			refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext~'^Port-to-port\ freight\ ship']"
-			searchtimeout="30000ms">
-				/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Port-to-port\ freight\ ship']
-			</item>
-			<item
-			addcaps="unknown,webelement,h1tag"
-			capname="h1tag"
-			id="4dc28eec-40a9-4ab6-9186-0d22bd740d66"
-			name="TheDFDSGroup"
-			refimgid="1d352b0a-35ca-461f-8e09-71b4df9a35d6"
-			refpath="/dom[@domain='prod.dfds-unified.com' and @caption~'^DFDS\ Group\ \|\ Northern\ Eur']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='The DFDS group']"
-			searchtimeout="30000ms">
-				/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='The DFDS group']
-			</item>
 			<folder
 			capname="divtag"
-			id="9617a521-9795-42f6-895a-e4812049c2a4"
+			id="e0f38e86-5899-4d55-ac9b-73f181de73df"
 			isrooted="True"
 			name="SomeDivTag"
 			searchtimeout="30000ms"
@@ -62,35 +32,88 @@ rxversion="8.0">
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
-				id="33c97bfe-f30e-4c91-accc-af161ffd51c1"
+				id="2a3033a5-081b-4be4-a8d9-c964fe5abf29"
 				name="AboutDFDS"
-				refimgid="cc4788e9-bd24-43eb-b91e-2b8e57d3add9"
-				refpath="/dom[@domain='prod.dfds-unified.com' and @caption~'^Logistics\ solutions\ for\ y']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='About DFDS']/div[@innertext='About DFDS']"
+				refimgid="8f4b6f54-bd09-4752-8fbd-0f64a8b79080"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='About DFDS']/div[@innertext='About DFDS']"
 				searchtimeout="30000ms">
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='About DFDS']/div[@innertext='About DFDS']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
-				id="96fed249-3005-40cd-8469-3643fa161371"
-				name="LogisticsSolutions"
-				refimgid="01895759-3fba-4fa6-a09c-5740ecbb1541"
-				refpath="/dom[@domain='prod.dfds-unified.com' and @caption~'^Freight\ &amp;\ Shipping\ \|\ Frei']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']"
+				id="fa9c9964-3111-4640-8b07-7ffb35d0a005"
+				name="FreightShipping"
+				refimgid="e0ddaa49-ba18-443b-9ad9-ce2d42b764a7"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Freight shipping']/div[@innertext='Freight shipping']"
 				searchtimeout="30000ms">
-					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='Freight shipping']/div[@innertext='Freight shipping']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
-				id="def6922d-e206-4e17-85d4-e30b2825926b"
-				name="MainMenuWrapper"
-				refimgid="361a0d9c-f180-4088-b4d2-946725bc5125"
-				refpath="/dom[@domain='prod.dfds-unified.com' and @caption~'^DFDS\ Group\ \|\ Northern\ Eur']//div[#'root']/div/div/div[1]/div/div/div[1]"
+				id="28df3e6f-deaa-41b8-adeb-3338a1c67d28"
+				name="LogisticsSolutions"
+				refimgid="e5bf396d-ff92-4921-87fc-abc82a677a1b"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']"
 				searchtimeout="30000ms">
-					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]/div/div/div[1]
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]//nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']
 				</item>
 				<basepath>
 					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[1]
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="24b35bbe-2eb1-4551-913d-0ac568c3ebc9"
+			isrooted="True"
+			name="HeadlineBlockImage"
+			refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="f3cadbed-cf39-411c-b3d5-30b39eb1501b"
+				name="TheDFDSGroup"
+				refimgid="91ca9db9-e9f3-4f96-a57c-db22b7750932"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='The DFDS group']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='The DFDS group']
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="ec666950-5818-415b-a8ea-e39a3f1ccc6d"
+				name="LogisticsAndSupplyChainSolutions"
+				refimgid="4e3a6b84-c4e5-45e8-9c05-66f4f7ea5486"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='Logistics and supply chain solutions']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Logistics\ and\ supply\ chai']
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="9e1f74d5-b7f1-43fb-a52f-bf2d8b9e2990"
+				name="PortToPortFreightShippingSolutions"
+				refimgid="d646cf7c-8f14-4533-a835-61bad52fea0d"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='Port-to-port freight shipping solutions']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Port-to-port\ freight\ ship']
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="3642fced-0958-4a7b-9a2d-4c9dc38b1d40"
+				name="WhereverWeGoWeStartWithYou"
+				refimgid="adfdcd86-01a4-4c49-b1d1-3d2ad0466830"
+				refpath="/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]/div[2]/div/h1[@innertext='Wherever we go, we start with you']"
+				searchtimeout="30000ms">
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Wherever\ we\ go,\ we\ start\ ']
+				</item>
+				<basepath>
+					/dom[@domain='prod.dfds-unified.com']//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]
 				</basepath>
 			</folder>
 			<basepath>
@@ -113,80 +136,43 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<appfolder
-		addcaps="menubar,nativewindow"
-		capname="menubar"
-		id="4f6146c1-0393-44b4-9954-09c59112e13b"
+		addcaps="form,nativewindow"
+		capname="form"
+		id="99fe5a17-a336-47f4-a371-0f4807b37342"
 		isrooted="True"
-		name="Explorer"
-		refpath="/menubar[@processname='explorer']"
+		name="DFDSGroupNorthernEuropesLeadingTr"
+		refpath="/form[@title='DFDS Group | Northern Europe''s leading transport provider - Google Chrome']"
 		searchtimeout="30000ms"
 		usecache="True">
 			<item
-			addcaps="button,accessible"
-			capname="button"
-			id="9e09276d-6180-4e9d-8837-fe3bb4832342"
-			name="RanorexStudio1RunningWindow"
-			refimgid="66babbe0-f736-443a-8ce0-bf10a3a50ce8"
-			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^RanorexStudio\ -\ 1\ running']"
+			addcaps="container,accessible"
+			capname="container"
+			id="1ad57a42-c7c0-4251-bb23-23ecf52982c1"
+			name="Client"
+			refimgid="50b30bb3-3e83-4fd4-a3be-8ce144933a55"
+			refpath="/form[@title~'^DFDS\ Group\ \|\ Northern\ Eur']/container/container[2]/container[2]/container[@accessiblerole='Client']"
 			searchtimeout="30000ms">
-				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^RanorexStudio\ -\ 1\ running']
+				/form[@title~'^DFDS\ Group\ \|\ Northern\ Eur']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']
 			</item>
 			<basepath>
-				/menubar[@processname='explorer']
+				/form[@title~'^DFDS\ Group\ \|\ Northern\ Eur']
 			</basepath>
 			<icon>
-				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
-VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALOSURBVDhPrZBdSJNRHMYHWTdBJJszSs3Aq+o2
+c9V8p+4jN+delW1+bGqaBd1F1JXRTVmKhhKjnNOpUYYpkTG0AqUP1OmGWgpr76YlRmZl4LSY833s
+7N1ro+iyBx7OuTi/3/+cI/jvWTDTwtki+qLfqJ705SsXfXmKZT8tn/cVqPpnDRrVEEXF8Ef/zKZe
+v81TrNX5DWq/v0DFEhg+Wg5GlwUmNxOMVgafhgqS/ZM5nSqZx6IZp1N1b+nMNS8BmQIVwgLmLwGj
+SYdXLQWTLZ3ya4/G86hAkHXLLOwyZvgncijMhKHw9DwFGNVxvFOkwauUwntSRtZ0eBRSeLJOkNtI
+LTwuEKR0V17KuFnCDqmPYZJIPPkKzLc1w+X+gIGRJdb3ZoJd6KtiP91PY7/3prGBPgm75pB8wQtl
+IidIvlcxdaDzNKqrVBhVSjBru426vgBy6wNQ1wagb1zFc9dHBIcNCL2isPGadJhi4daZOUHS3YrF
+pM4KHLKWoV9ymEyeg47AmrpIw5Iq6ypWGDvYcTlpFlhXJtjJfCsnSOgoX07sOIUEIqEvyPF0+DMH
+cQKyZt8gt2haxbf3zwhIBC5eMJHbwwn2dZTOJ4QFpCK7CYMzMzA0RiaHYeX1FVQ/WMFPbw0PRwRB
+d24NJ9jTbhrY216OrdKOq+gdW8RZawDGpgAuE3hs2ol1tzo6fUy2HhpVZnACcZtJEW8vC8bbSxGu
+mPRI93nUO3vQNf0S5x414LGDjoCuDPIHMoTGKe/X0dRdnEBwhYoRthsd4jYzojVB1FoCYUshsi1a
+BLm3EwGBSUMbTkofgfnsthXvj2stnooj4FZFthLsbCiAe1D5G94g8NoIVbu5eWY7j0YjbimMF1kL
+LUJb8ZKwtYiNvWNEZVsO1glMwOC6k/L+GKb0090Hd/DIvxNrMSYmWk2lKZai5uUR3cOAU30tQD4s
++uatCAS/AIjL5yMVZXXrAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath>

@@ -73,31 +73,38 @@ namespace DFDSGroup
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.00;
+            Mouse.DefaultMoveTime = 0;
+            Keyboard.DefaultKeyPressTime = 20;
+            Delay.SpeedFactor = 0.00;
 
             Init();
 
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://prod.dfds-unified.com/en-gb/' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
             Host.Current.OpenBrowser("https://prod.dfds-unified.com/en-gb/", "chrome", "", false, false, false, false, false);
-            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.FreightShipping' at 202;80.", repo.DFDSFerriesLogisticsFreightEurop.FreightShippingInfo, new RecordItemIndex(1));
-            repo.DFDSFerriesLogisticsFreightEurop.FreightShipping.Click("202;80");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.WhereverWeGoWeStartWithYou'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.WhereverWeGoWeStartWithYouInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.WhereverWeGoWeStartWithYouInfo);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions' at 116;30.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutionsInfo, new RecordItemIndex(2));
-            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions.Click("116;30");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping' at 73;31.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShippingInfo, new RecordItemIndex(2));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.FreightShipping.Click("73;31");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 115;21.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(3));
-            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS.Click("115;21");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.PortToPortFreightShippingSolutions'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.PortToPortFreightShippingSolutionsInfo, new RecordItemIndex(3));
+            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.PortToPortFreightShippingSolutionsInfo);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 78;13.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(4));
-            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS.Click("78;13");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions' at 196;27.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutionsInfo, new RecordItemIndex(4));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.LogisticsSolutions.Click("196;27");
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.LogisticsAndSupplyChainSolutions'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.LogisticsAndSupplyChainSolutionsInfo, new RecordItemIndex(5));
+            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.LogisticsAndSupplyChainSolutionsInfo);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS' at 172;33.", repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDSInfo, new RecordItemIndex(6));
+            repo.DFDSFerriesLogisticsFreightEurop.SomeDivTag.AboutDFDS.Click("172;33");
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroup'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroupInfo, new RecordItemIndex(7));
+            Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroupInfo);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSGroupNorthernEuropesLeadingTr.Client' at 427;3.", repo.DFDSGroupNorthernEuropesLeadingTr.ClientInfo, new RecordItemIndex(8));
+            repo.DFDSGroupNorthernEuropesLeadingTr.Client.Click("427;3");
             
         }
 

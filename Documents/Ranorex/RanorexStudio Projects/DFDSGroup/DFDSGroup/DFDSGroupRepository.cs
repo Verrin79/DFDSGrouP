@@ -28,7 +28,7 @@ namespace DFDSGroup
     {
         static DFDSGroupRepository instance = new DFDSGroupRepository();
         DFDSGroupRepositoryFolders.DFDSFerriesLogisticsFreightEuropAppFolder _dfdsferrieslogisticsfreighteurop;
-        DFDSGroupRepositoryFolders.ExplorerAppFolder _explorer;
+        DFDSGroupRepositoryFolders.DFDSGroupNorthernEuropesLeadingTrAppFolder _dfdsgroupnortherneuropesleadingtr;
 
         /// <summary>
         /// Gets the singleton class instance representing the DFDSGroupRepository element repository.
@@ -46,7 +46,7 @@ namespace DFDSGroup
             : base("DFDSGroupRepository", "/", null, 0, false, "d5ace215-054f-4368-948a-0cf858b02a42", ".\\RepositoryImages\\DFDSGroupRepositoryd5ace215.rximgres")
         {
             _dfdsferrieslogisticsfreighteurop = new DFDSGroupRepositoryFolders.DFDSFerriesLogisticsFreightEuropAppFolder(this);
-            _explorer = new DFDSGroupRepositoryFolders.ExplorerAppFolder(this);
+            _dfdsgroupnortherneuropesleadingtr = new DFDSGroupRepositoryFolders.DFDSGroupNorthernEuropesLeadingTrAppFolder(this);
         }
 
 #region Variables
@@ -68,19 +68,19 @@ namespace DFDSGroup
         /// <summary>
         /// The DFDSFerriesLogisticsFreightEurop folder.
         /// </summary>
-        [RepositoryFolder("1bc14bf2-f222-4bd2-9d2d-fb1a7218bac8")]
+        [RepositoryFolder("7a26f4c7-12ea-448f-8565-6e9849c3bd02")]
         public virtual DFDSGroupRepositoryFolders.DFDSFerriesLogisticsFreightEuropAppFolder DFDSFerriesLogisticsFreightEurop
         {
             get { return _dfdsferrieslogisticsfreighteurop; }
         }
 
         /// <summary>
-        /// The Explorer folder.
+        /// The DFDSGroupNorthernEuropesLeadingTr folder.
         /// </summary>
-        [RepositoryFolder("4f6146c1-0393-44b4-9954-09c59112e13b")]
-        public virtual DFDSGroupRepositoryFolders.ExplorerAppFolder Explorer
+        [RepositoryFolder("99fe5a17-a336-47f4-a371-0f4807b37342")]
+        public virtual DFDSGroupRepositoryFolders.DFDSGroupNorthernEuropesLeadingTrAppFolder DFDSGroupNorthernEuropesLeadingTr
         {
-            get { return _explorer; }
+            get { return _dfdsgroupnortherneuropesleadingtr; }
         }
     }
 
@@ -93,30 +93,26 @@ namespace DFDSGroup
         /// <summary>
         /// The DFDSFerriesLogisticsFreightEuropAppFolder folder.
         /// </summary>
-        [RepositoryFolder("1bc14bf2-f222-4bd2-9d2d-fb1a7218bac8")]
+        [RepositoryFolder("7a26f4c7-12ea-448f-8565-6e9849c3bd02")]
         public partial class DFDSFerriesLogisticsFreightEuropAppFolder : RepoGenBaseFolder
         {
             DFDSGroupRepositoryFolders.SomeDivTagFolder _somedivtag;
-            RepoItemInfo _freightshippingInfo;
-            RepoItemInfo _porttoportfreightshippingsolutionsInfo;
-            RepoItemInfo _thedfdsgroupInfo;
+            DFDSGroupRepositoryFolders.HeadlineBlockImageFolder _headlineblockimage;
 
             /// <summary>
             /// Creates a new DFDSFerriesLogisticsFreightEurop  folder.
             /// </summary>
             public DFDSFerriesLogisticsFreightEuropAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("DFDSFerriesLogisticsFreightEurop", "/dom[@domain='prod.dfds-unified.com']", parentFolder, 30000, null, false, "1bc14bf2-f222-4bd2-9d2d-fb1a7218bac8", "")
+                    base("DFDSFerriesLogisticsFreightEurop", "/dom[@domain='prod.dfds-unified.com']", parentFolder, 30000, null, false, "7a26f4c7-12ea-448f-8565-6e9849c3bd02", "")
             {
                 _somedivtag = new DFDSGroupRepositoryFolders.SomeDivTagFolder(this);
-                _freightshippingInfo = new RepoItemInfo(this, "FreightShipping", ".//div[#'root']/div/div/div[1]/div/div/div[1]/nav/a[@title='Freight shipping']", 30000, null, "b87d8c4a-3430-465c-abd4-465e927c11c5");
-                _porttoportfreightshippingsolutionsInfo = new RepoItemInfo(this, "PortToPortFreightShippingSolutions", ".//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext~'^Port-to-port\\ freight\\ ship']", 30000, null, "07d5124e-51f7-4797-83a8-23508dfcce16");
-                _thedfdsgroupInfo = new RepoItemInfo(this, "TheDFDSGroup", ".//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]//h1[@innertext='The DFDS group']", 30000, null, "4dc28eec-40a9-4ab6-9186-0d22bd740d66");
+                _headlineblockimage = new DFDSGroupRepositoryFolders.HeadlineBlockImageFolder(this);
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("1bc14bf2-f222-4bd2-9d2d-fb1a7218bac8")]
+            [RepositoryItem("7a26f4c7-12ea-448f-8565-6e9849c3bd02")]
             public virtual Ranorex.WebDocument Self
             {
                 get
@@ -128,7 +124,7 @@ namespace DFDSGroup
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("1bc14bf2-f222-4bd2-9d2d-fb1a7218bac8")]
+            [RepositoryItemInfo("7a26f4c7-12ea-448f-8565-6e9849c3bd02")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -138,112 +134,49 @@ namespace DFDSGroup
             }
 
             /// <summary>
-            /// The FreightShipping item.
-            /// </summary>
-            [RepositoryItem("b87d8c4a-3430-465c-abd4-465e927c11c5")]
-            public virtual Ranorex.ATag FreightShipping
-            {
-                get
-                {
-                    return _freightshippingInfo.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The FreightShipping item info.
-            /// </summary>
-            [RepositoryItemInfo("b87d8c4a-3430-465c-abd4-465e927c11c5")]
-            public virtual RepoItemInfo FreightShippingInfo
-            {
-                get
-                {
-                    return _freightshippingInfo;
-                }
-            }
-
-            /// <summary>
-            /// The PortToPortFreightShippingSolutions item.
-            /// </summary>
-            [RepositoryItem("07d5124e-51f7-4797-83a8-23508dfcce16")]
-            public virtual Ranorex.H1Tag PortToPortFreightShippingSolutions
-            {
-                get
-                {
-                    return _porttoportfreightshippingsolutionsInfo.CreateAdapter<Ranorex.H1Tag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The PortToPortFreightShippingSolutions item info.
-            /// </summary>
-            [RepositoryItemInfo("07d5124e-51f7-4797-83a8-23508dfcce16")]
-            public virtual RepoItemInfo PortToPortFreightShippingSolutionsInfo
-            {
-                get
-                {
-                    return _porttoportfreightshippingsolutionsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TheDFDSGroup item.
-            /// </summary>
-            [RepositoryItem("4dc28eec-40a9-4ab6-9186-0d22bd740d66")]
-            public virtual Ranorex.H1Tag TheDFDSGroup
-            {
-                get
-                {
-                    return _thedfdsgroupInfo.CreateAdapter<Ranorex.H1Tag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TheDFDSGroup item info.
-            /// </summary>
-            [RepositoryItemInfo("4dc28eec-40a9-4ab6-9186-0d22bd740d66")]
-            public virtual RepoItemInfo TheDFDSGroupInfo
-            {
-                get
-                {
-                    return _thedfdsgroupInfo;
-                }
-            }
-
-            /// <summary>
             /// The SomeDivTag folder.
             /// </summary>
-            [RepositoryFolder("9617a521-9795-42f6-895a-e4812049c2a4")]
+            [RepositoryFolder("e0f38e86-5899-4d55-ac9b-73f181de73df")]
             public virtual DFDSGroupRepositoryFolders.SomeDivTagFolder SomeDivTag
             {
                 get { return _somedivtag; }
+            }
+
+            /// <summary>
+            /// The HeadlineBlockImage folder.
+            /// </summary>
+            [RepositoryFolder("24b35bbe-2eb1-4551-913d-0ac568c3ebc9")]
+            public virtual DFDSGroupRepositoryFolders.HeadlineBlockImageFolder HeadlineBlockImage
+            {
+                get { return _headlineblockimage; }
             }
         }
 
         /// <summary>
         /// The SomeDivTagFolder folder.
         /// </summary>
-        [RepositoryFolder("9617a521-9795-42f6-895a-e4812049c2a4")]
+        [RepositoryFolder("e0f38e86-5899-4d55-ac9b-73f181de73df")]
         public partial class SomeDivTagFolder : RepoGenBaseFolder
         {
             RepoItemInfo _aboutdfdsInfo;
+            RepoItemInfo _freightshippingInfo;
             RepoItemInfo _logisticssolutionsInfo;
-            RepoItemInfo _mainmenuwrapperInfo;
 
             /// <summary>
             /// Creates a new SomeDivTag  folder.
             /// </summary>
             public SomeDivTagFolder(RepoGenBaseFolder parentFolder) :
-                    base("SomeDivTag", ".//div[#'root']/div/div/div[1]", parentFolder, 30000, null, false, "9617a521-9795-42f6-895a-e4812049c2a4", "")
+                    base("SomeDivTag", ".//div[#'root']/div/div/div[1]", parentFolder, 30000, null, false, "e0f38e86-5899-4d55-ac9b-73f181de73df", "")
             {
-                _aboutdfdsInfo = new RepoItemInfo(this, "AboutDFDS", ".//nav/a[@title='About DFDS']/div[@innertext='About DFDS']", 30000, null, "33c97bfe-f30e-4c91-accc-af161ffd51c1");
-                _logisticssolutionsInfo = new RepoItemInfo(this, "LogisticsSolutions", ".//nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']", 30000, null, "96fed249-3005-40cd-8469-3643fa161371");
-                _mainmenuwrapperInfo = new RepoItemInfo(this, "MainMenuWrapper", "div/div/div[1]", 30000, null, "def6922d-e206-4e17-85d4-e30b2825926b");
+                _aboutdfdsInfo = new RepoItemInfo(this, "AboutDFDS", ".//nav/a[@title='About DFDS']/div[@innertext='About DFDS']", 30000, null, "2a3033a5-081b-4be4-a8d9-c964fe5abf29");
+                _freightshippingInfo = new RepoItemInfo(this, "FreightShipping", ".//nav/a[@title='Freight shipping']/div[@innertext='Freight shipping']", 30000, null, "fa9c9964-3111-4640-8b07-7ffb35d0a005");
+                _logisticssolutionsInfo = new RepoItemInfo(this, "LogisticsSolutions", ".//nav/a[@title='Logistics solutions']/div[@innertext='Logistics solutions']", 30000, null, "28df3e6f-deaa-41b8-adeb-3338a1c67d28");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("9617a521-9795-42f6-895a-e4812049c2a4")]
+            [RepositoryItem("e0f38e86-5899-4d55-ac9b-73f181de73df")]
             public virtual Ranorex.DivTag Self
             {
                 get
@@ -255,7 +188,7 @@ namespace DFDSGroup
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("9617a521-9795-42f6-895a-e4812049c2a4")]
+            [RepositoryItemInfo("e0f38e86-5899-4d55-ac9b-73f181de73df")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -267,7 +200,7 @@ namespace DFDSGroup
             /// <summary>
             /// The AboutDFDS item.
             /// </summary>
-            [RepositoryItem("33c97bfe-f30e-4c91-accc-af161ffd51c1")]
+            [RepositoryItem("2a3033a5-081b-4be4-a8d9-c964fe5abf29")]
             public virtual Ranorex.DivTag AboutDFDS
             {
                 get
@@ -279,7 +212,7 @@ namespace DFDSGroup
             /// <summary>
             /// The AboutDFDS item info.
             /// </summary>
-            [RepositoryItemInfo("33c97bfe-f30e-4c91-accc-af161ffd51c1")]
+            [RepositoryItemInfo("2a3033a5-081b-4be4-a8d9-c964fe5abf29")]
             public virtual RepoItemInfo AboutDFDSInfo
             {
                 get
@@ -289,9 +222,33 @@ namespace DFDSGroup
             }
 
             /// <summary>
+            /// The FreightShipping item.
+            /// </summary>
+            [RepositoryItem("fa9c9964-3111-4640-8b07-7ffb35d0a005")]
+            public virtual Ranorex.DivTag FreightShipping
+            {
+                get
+                {
+                    return _freightshippingInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FreightShipping item info.
+            /// </summary>
+            [RepositoryItemInfo("fa9c9964-3111-4640-8b07-7ffb35d0a005")]
+            public virtual RepoItemInfo FreightShippingInfo
+            {
+                get
+                {
+                    return _freightshippingInfo;
+                }
+            }
+
+            /// <summary>
             /// The LogisticsSolutions item.
             /// </summary>
-            [RepositoryItem("96fed249-3005-40cd-8469-3643fa161371")]
+            [RepositoryItem("28df3e6f-deaa-41b8-adeb-3338a1c67d28")]
             public virtual Ranorex.DivTag LogisticsSolutions
             {
                 get
@@ -303,7 +260,7 @@ namespace DFDSGroup
             /// <summary>
             /// The LogisticsSolutions item info.
             /// </summary>
-            [RepositoryItemInfo("96fed249-3005-40cd-8469-3643fa161371")]
+            [RepositoryItemInfo("28df3e6f-deaa-41b8-adeb-3338a1c67d28")]
             public virtual RepoItemInfo LogisticsSolutionsInfo
             {
                 get
@@ -311,65 +268,47 @@ namespace DFDSGroup
                     return _logisticssolutionsInfo;
                 }
             }
-
-            /// <summary>
-            /// The MainMenuWrapper item.
-            /// </summary>
-            [RepositoryItem("def6922d-e206-4e17-85d4-e30b2825926b")]
-            public virtual Ranorex.DivTag MainMenuWrapper
-            {
-                get
-                {
-                    return _mainmenuwrapperInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The MainMenuWrapper item info.
-            /// </summary>
-            [RepositoryItemInfo("def6922d-e206-4e17-85d4-e30b2825926b")]
-            public virtual RepoItemInfo MainMenuWrapperInfo
-            {
-                get
-                {
-                    return _mainmenuwrapperInfo;
-                }
-            }
         }
 
         /// <summary>
-        /// The ExplorerAppFolder folder.
+        /// The HeadlineBlockImageFolder folder.
         /// </summary>
-        [RepositoryFolder("4f6146c1-0393-44b4-9954-09c59112e13b")]
-        public partial class ExplorerAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("24b35bbe-2eb1-4551-913d-0ac568c3ebc9")]
+        public partial class HeadlineBlockImageFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _ranorexstudio1runningwindowInfo;
+            RepoItemInfo _thedfdsgroupInfo;
+            RepoItemInfo _logisticsandsupplychainsolutionsInfo;
+            RepoItemInfo _porttoportfreightshippingsolutionsInfo;
+            RepoItemInfo _whereverwegowestartwithyouInfo;
 
             /// <summary>
-            /// Creates a new Explorer  folder.
+            /// Creates a new HeadlineBlockImage  folder.
             /// </summary>
-            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "4f6146c1-0393-44b4-9954-09c59112e13b", "")
+            public HeadlineBlockImageFolder(RepoGenBaseFolder parentFolder) :
+                    base("HeadlineBlockImage", ".//div[#'root']/div/div/div[4]/div/div/div[1]/div/div[1]", parentFolder, 30000, null, false, "24b35bbe-2eb1-4551-913d-0ac568c3ebc9", "")
             {
-                _ranorexstudio1runningwindowInfo = new RepoItemInfo(this, "RanorexStudio1RunningWindow", "container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^RanorexStudio\\ -\\ 1\\ running']", 30000, null, "9e09276d-6180-4e9d-8837-fe3bb4832342");
+                _thedfdsgroupInfo = new RepoItemInfo(this, "TheDFDSGroup", ".//h1[@innertext='The DFDS group']", 30000, null, "f3cadbed-cf39-411c-b3d5-30b39eb1501b");
+                _logisticsandsupplychainsolutionsInfo = new RepoItemInfo(this, "LogisticsAndSupplyChainSolutions", ".//h1[@innertext~'^Logistics\\ and\\ supply\\ chai']", 30000, null, "ec666950-5818-415b-a8ea-e39a3f1ccc6d");
+                _porttoportfreightshippingsolutionsInfo = new RepoItemInfo(this, "PortToPortFreightShippingSolutions", ".//h1[@innertext~'^Port-to-port\\ freight\\ ship']", 30000, null, "9e1f74d5-b7f1-43fb-a52f-bf2d8b9e2990");
+                _whereverwegowestartwithyouInfo = new RepoItemInfo(this, "WhereverWeGoWeStartWithYou", ".//h1[@innertext~'^Wherever\\ we\\ go,\\ we\\ start\\ ']", 30000, null, "3642fced-0958-4a7b-9a2d-4c9dc38b1d40");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("4f6146c1-0393-44b4-9954-09c59112e13b")]
-            public virtual Ranorex.MenuBar Self
+            [RepositoryItem("24b35bbe-2eb1-4551-913d-0ac568c3ebc9")]
+            public virtual Ranorex.DivTag Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
                 }
             }
 
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("4f6146c1-0393-44b4-9954-09c59112e13b")]
+            [RepositoryItemInfo("24b35bbe-2eb1-4551-913d-0ac568c3ebc9")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -379,26 +318,164 @@ namespace DFDSGroup
             }
 
             /// <summary>
-            /// The RanorexStudio1RunningWindow item.
+            /// The TheDFDSGroup item.
             /// </summary>
-            [RepositoryItem("9e09276d-6180-4e9d-8837-fe3bb4832342")]
-            public virtual Ranorex.Button RanorexStudio1RunningWindow
+            [RepositoryItem("f3cadbed-cf39-411c-b3d5-30b39eb1501b")]
+            public virtual Ranorex.H1Tag TheDFDSGroup
             {
                 get
                 {
-                    return _ranorexstudio1runningwindowInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _thedfdsgroupInfo.CreateAdapter<Ranorex.H1Tag>(true);
                 }
             }
 
             /// <summary>
-            /// The RanorexStudio1RunningWindow item info.
+            /// The TheDFDSGroup item info.
             /// </summary>
-            [RepositoryItemInfo("9e09276d-6180-4e9d-8837-fe3bb4832342")]
-            public virtual RepoItemInfo RanorexStudio1RunningWindowInfo
+            [RepositoryItemInfo("f3cadbed-cf39-411c-b3d5-30b39eb1501b")]
+            public virtual RepoItemInfo TheDFDSGroupInfo
             {
                 get
                 {
-                    return _ranorexstudio1runningwindowInfo;
+                    return _thedfdsgroupInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LogisticsAndSupplyChainSolutions item.
+            /// </summary>
+            [RepositoryItem("ec666950-5818-415b-a8ea-e39a3f1ccc6d")]
+            public virtual Ranorex.H1Tag LogisticsAndSupplyChainSolutions
+            {
+                get
+                {
+                    return _logisticsandsupplychainsolutionsInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LogisticsAndSupplyChainSolutions item info.
+            /// </summary>
+            [RepositoryItemInfo("ec666950-5818-415b-a8ea-e39a3f1ccc6d")]
+            public virtual RepoItemInfo LogisticsAndSupplyChainSolutionsInfo
+            {
+                get
+                {
+                    return _logisticsandsupplychainsolutionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PortToPortFreightShippingSolutions item.
+            /// </summary>
+            [RepositoryItem("9e1f74d5-b7f1-43fb-a52f-bf2d8b9e2990")]
+            public virtual Ranorex.H1Tag PortToPortFreightShippingSolutions
+            {
+                get
+                {
+                    return _porttoportfreightshippingsolutionsInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PortToPortFreightShippingSolutions item info.
+            /// </summary>
+            [RepositoryItemInfo("9e1f74d5-b7f1-43fb-a52f-bf2d8b9e2990")]
+            public virtual RepoItemInfo PortToPortFreightShippingSolutionsInfo
+            {
+                get
+                {
+                    return _porttoportfreightshippingsolutionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WhereverWeGoWeStartWithYou item.
+            /// </summary>
+            [RepositoryItem("3642fced-0958-4a7b-9a2d-4c9dc38b1d40")]
+            public virtual Ranorex.H1Tag WhereverWeGoWeStartWithYou
+            {
+                get
+                {
+                    return _whereverwegowestartwithyouInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WhereverWeGoWeStartWithYou item info.
+            /// </summary>
+            [RepositoryItemInfo("3642fced-0958-4a7b-9a2d-4c9dc38b1d40")]
+            public virtual RepoItemInfo WhereverWeGoWeStartWithYouInfo
+            {
+                get
+                {
+                    return _whereverwegowestartwithyouInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DFDSGroupNorthernEuropesLeadingTrAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("99fe5a17-a336-47f4-a371-0f4807b37342")]
+        public partial class DFDSGroupNorthernEuropesLeadingTrAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _clientInfo;
+
+            /// <summary>
+            /// Creates a new DFDSGroupNorthernEuropesLeadingTr  folder.
+            /// </summary>
+            public DFDSGroupNorthernEuropesLeadingTrAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("DFDSGroupNorthernEuropesLeadingTr", "/form[@title~'^DFDS\\ Group\\ \\|\\ Northern\\ Eur']", parentFolder, 30000, null, true, "99fe5a17-a336-47f4-a371-0f4807b37342", "")
+            {
+                _clientInfo = new RepoItemInfo(this, "Client", "container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Client']", 30000, null, "1ad57a42-c7c0-4251-bb23-23ecf52982c1");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("99fe5a17-a336-47f4-a371-0f4807b37342")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("99fe5a17-a336-47f4-a371-0f4807b37342")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Client item.
+            /// </summary>
+            [RepositoryItem("1ad57a42-c7c0-4251-bb23-23ecf52982c1")]
+            public virtual Ranorex.Container Client
+            {
+                get
+                {
+                    return _clientInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Client item info.
+            /// </summary>
+            [RepositoryItemInfo("1ad57a42-c7c0-4251-bb23-23ecf52982c1")]
+            public virtual RepoItemInfo ClientInfo
+            {
+                get
+                {
+                    return _clientInfo;
                 }
             }
         }

@@ -103,9 +103,6 @@ namespace DFDSGroup
             Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroup'.", repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroupInfo, new RecordItemIndex(7));
             Validate.Exists(repo.DFDSFerriesLogisticsFreightEurop.HeadlineBlockImage.TheDFDSGroupInfo);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DFDSGroupNorthernEuropesLeadingTr.Client' at 427;3.", repo.DFDSGroupNorthernEuropesLeadingTr.ClientInfo, new RecordItemIndex(8));
-            repo.DFDSGroupNorthernEuropesLeadingTr.Client.Click("427;3");
-            
         }
 
 #region Image Feature Data

@@ -158,12 +158,6 @@
       <UserCode>true</UserCode>
       <id>d1f09204-47a5-497f-924c-429d341ecc39</id>
     </Compile>
-    <Compile Include="Repository1.cs">
-      <BoundTo>4957525A-8AE7-493B-9324-D7CCDEB92015</BoundTo>
-      <DependentUpon>Repository1.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>2396502b-d179-487a-8b4d-afb119454e22</id>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -190,19 +184,9 @@
       <id>94278a3a-b960-44f7-bb77-6d2699bd0fb0</id>
       <recordtableid>e29a8148-c3d7-4c24-af80-10947be6d311</recordtableid>
     </None>
-    <None Include="Repository1.rximg">
-      <BoundTo>4957525A-8AE7-493B-9324-D7CCDEB92015</BoundTo>
-      <DependentUpon>Repository1.rxrep</DependentUpon>
-      <imageblob>true</imageblob>
-      <id>a87d332e-98ed-4967-b5ea-4078fd727dc7</id>
-    </None>
-    <None Include="Repository1.rxrep">
-      <id>4957525A-8AE7-493B-9324-D7CCDEB92015</id>
-      <repoid>e43e3f18-374f-4b52-9a74-4ebf868adc33</repoid>
-      <reporootid>1b8e38fc-f347-43ce-ae9b-40d4c828eee4</reporootid>
-    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DFDSGroup.cd" />
     <Content Include="DFDSGroup.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>12532f29-e29d-4222-9455-83a4cdc665c6</id>

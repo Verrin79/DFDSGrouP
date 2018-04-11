@@ -2471,6 +2471,17 @@ tHoKQxoewoooAaYUx0qC4RUA296KKAIKKKKYC5pB1oooAdRiiigAIpooooAU0lFFABRRRQB//9k=
 				True
 			</matchvalue>
 		</validationitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="806d977a-b0d9-4394-b67a-2e16dffd2997">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</closeapprecorditem>
 	</recorditems>
 	<repository
 	id="6b32f50e-ecfc-4617-86e3-549b911fc29b"

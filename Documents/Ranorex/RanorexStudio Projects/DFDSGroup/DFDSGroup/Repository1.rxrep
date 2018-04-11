@@ -1,0 +1,21 @@
+﻿<repository
+id="e43e3f18-374f-4b52-9a74-4ebf868adc33"
+name="Repository1"
+rxversion="8.0">
+	<codegen
+	classname="Repository1"
+	namespace="DFDSGroup">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1b8e38fc-f347-43ce-ae9b-40d4c828eee4"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -4,6 +4,7 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Recording2.rxrec" />
     <Element value="Recording1.rxrec" />
   </Array>
   <Properties name="projectSavedData">
